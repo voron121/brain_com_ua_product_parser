@@ -1,0 +1,15 @@
+{
+    "name": "brain/price",
+    "description": "Product parcer from brain.com.ua",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Вадим V",
+            "email": "phogame121@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4@dev"
+    }
+}
