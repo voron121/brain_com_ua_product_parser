@@ -46,7 +46,7 @@ class CategoriesParser extends Base
                         name = :name';
         $stmt = $this->db->prepare($query);
         foreach ($this->getCategories() as $category) {
-            echo $category->name."\n\r";
+            //echo $category->name."\n\r";
             $stmt->execute([
                 'categoryID' => $category->categoryID,
                 'parentID' => $category->parentID,
