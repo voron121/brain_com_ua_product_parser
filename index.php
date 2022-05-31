@@ -4,11 +4,12 @@ include __DIR__ ."/vendor/autoload.php";
 
 use App\Auth;
 use App\CategoriesParser;
+use App\ProductsParser;
 
-$test = new CategoriesParser();
+$test = new ProductsParser();
 
 //echo "<pre>";
-var_dump( $test->writeCategories() );
+$test->execute();
 
 
 ?>

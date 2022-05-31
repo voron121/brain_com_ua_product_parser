@@ -56,4 +56,12 @@ class CategoriesParser extends Base
         }
     }
 
+    /**
+     * @return void
+     */
+    public function execute(): void
+    {
+        var_dump( $this->writeCategories() );
+    }
+
 }

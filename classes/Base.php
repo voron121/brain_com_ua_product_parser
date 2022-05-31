@@ -24,4 +24,6 @@ abstract class Base
     }
 
     abstract protected function getEndpoint(): string;
+
+    abstract public function execute(): void;
 }
