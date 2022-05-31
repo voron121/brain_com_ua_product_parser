@@ -4,9 +4,9 @@ include __DIR__ ."/vendor/autoload.php";
 
 use App\Auth;
 use App\CategoriesParser;
-use App\ProductsParser;
+use App\ProductDetailParser;
 
-$test = new ProductsParser();
+$test = new ProductDetailParser();
 
 //echo "<pre>";
 $test->execute();

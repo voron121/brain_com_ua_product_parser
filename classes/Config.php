@@ -13,4 +13,5 @@ final class Config
     public $apiAuthEndpoint = 'http://api.brain.com.ua/auth';
     public $apiCategoriesEndpoint = 'http://api.brain.com.ua/categories';
     public $apiProductsEndpoint = 'http://api.brain.com.ua/products';
+    public $apiProductEndpoint = 'http://api.brain.com.ua/product';
 }
