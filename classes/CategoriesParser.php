@@ -16,7 +16,7 @@ class CategoriesParser extends Base
      * @return array
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    public function getCategories(): array
+    private function getCategories(): array
     {
         $categoriesResponse = $this->http->get($this->getEndpoint());
         if ($categoriesResponse->getStatusCode() != 200) {
@@ -33,7 +33,7 @@ class CategoriesParser extends Base
      * @return void
      * @throws Exception
      */
-    public function writeCategories(): void
+    private function writeCategories(): void
     {
         $query = 'INSERT INTO categories
                     SET categoryID = :categoryID,
