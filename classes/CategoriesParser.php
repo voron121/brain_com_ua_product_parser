@@ -61,7 +61,7 @@ class CategoriesParser extends Base
      */
     public function execute(): void
     {
-        var_dump( $this->writeCategories() );
+        $this->writeCategories();
     }
 
 }
