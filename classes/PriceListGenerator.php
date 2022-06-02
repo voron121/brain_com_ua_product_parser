@@ -123,11 +123,11 @@ class PriceListGenerator
         $offer->setAttribute('id', $product->productID);
         $offer->setAttribute('available', $product->is_archive === 'no' ? 'true' : 'false');
         $offer->appendChild($this->dom->createElement('price', $product->price_uah));
-        $offer->appendChild($this->dom->createElement('description', strip_tags(trim($product->description))));
+        $offer->appendChild($this->dom->createElement('description', htmlspecialchars(strip_tags(trim($product->description))) ));
         $offer->appendChild($this->dom->createElement('currencyId', self::CURRENCY_CODE));
         $offer->appendChild($this->dom->createElement('categoryId', $product->categoryID));
         $offer->appendChild($this->dom->createElement('picture', $product->full_image));
-        $offer->appendChild($this->dom->createElement('name', strip_tags(trim($product->name))));
+        $offer->appendChild($this->dom->createElement('name', htmlspecialchars(strip_tags(trim($product->name))) ));
         $offer->appendChild($this->dom->createElement('vendorCode', $product->vendorID));
         // HARDCODE: i dont'now from what field get this value? so set 100
         $offer->appendChild($this->dom->createElement('stock_quantity', 100));
@@ -136,7 +136,7 @@ class PriceListGenerator
         if (!is_null($product->options)) {
             $options = json_decode($product->options);
             foreach ($options as $option) {
-                $param = $this->dom->createElement('param', $option->value);
+                $param = $this->dom->createElement('param', htmlspecialchars(strip_tags(trim($option->value))) );
                 $param->setAttribute('name', $option->name);
                 $offer->appendChild($param);
             }
