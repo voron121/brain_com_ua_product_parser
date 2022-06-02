@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yml_catalog date="2022-06-02 11:04:35">
+  <shop>
+    <name>brain</name>
+    <company>brain</company>
+    <url>https://google.com</url>
+    <currencies>
+      <currency id="UAH" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1037" parentId="1561">Wi-Fi карты и адаптеры</category>
+      <category id="1038" parentId="1308">Акустические системы</category>
+      <category id="1040" parentId="1384">Коврики</category>
+      <category id="1045" parentId="1387">Адаптеры</category>
+      <category id="1049" parentId="1547">Геймпады</category>
+      <category id="1052" parentId="1487">Внешние жесткие диски (HDD)</category>
+      <category id="1053" parentId="1331">Компьютеры</category>
+      <category id="1094" parentId="1392">Модемы</category>
+      <category id="1095" parentId="1559">Офисные АТС</category>
+      <category id="1096" parentId="1358">Фотоаппараты</category>
+      <category id="1097" parentId="1330">Процессоры</category>
+      <category id="1098" parentId="1513">Телевизоры</category>
+      <category id="1099" parentId="7815">Аксессуары к телевизорам</category>
+      <category id="1101" parentId="1111">Лампы и фильтры</category>
+      <category id="1102" parentId="1111">Презентеры</category>
+      <category id="1103" parentId="1515">MP3-MP4 плееры</category>
+      <category id="1104" parentId="1515">MP3-FM трансмиттеры</category>
+      <category id="1105" parentId="1515">Диктофоны</category>
+      <category id="1107" parentId="1181">Игровые приставки</category>
+      <category id="1108" parentId="1330">Кулеры к процессорам</category>
+      <category id="1109" parentId="1111">Презентационные дисплеи</category>
+      <category id="1111" parentId="1513">Проекторы и аксессуары</category>
+      <category id="1112" parentId="1111">Интерактивные доски</category>
+      <category id="1113" parentId="1513">Медиаплееры</category>
+      <category id="1114" parentId="1113">Медиаплееры</category>
+      <category id="1115" parentId="1113">Стационарные BD-плееры</category>
+      <category id="1116" parentId="1113">Стационарные DVD-плееры</category>
+      <category id="1117" parentId="1113">Портативные DVD-плееры</category>
+      <category id="1119" parentId="1513">Домашние кинотеатры</category>
+      <category id="1120" parentId="1111">Экраны для проекторов</category>
+      <category id="1121" parentId="7815">Крепления VESA</category>
+      <category id="1136" parentId="1384">Чистящие средства</category>
+      <category id="1164" parentId="1358">Видеокамеры</category>
+      <category id="1165" parentId="1547">Джойстики</category>
+      <category id="1168" parentId="1387">Концентраторы</category>
+      <category id="1180" parentId="1487">USB Flash</category>
+      <category id="1181">Ноутбуки, планшеты</category>
+      <category id="1182" parentId="1397">Другое ПО</category>
+      <category id="1189" parentId="1559">Системные телефоны</category>
+      <category id="1190" parentId="1553">Многофункциональные устройства</category>
+      <category id="1191" parentId="1181">Ноутбуки</category>
+      <category id="1192" parentId="1181">Планшеты</category>
+      <category id="1193" parentId="1553">Струйный принтер</category>
+      <category id="1194" parentId="1181">Электронные книги</category>
+      <category id="1202" parentId="1211">Презентеры</category>
+      <category id="1203" parentId="1181">Сумки, рюкзаки, чехлы</category>
+      <category id="1204" parentId="1203">Сумки к ноутбукам</category>
+      <category id="1205" parentId="1203">Рюкзаки к ноутбукам</category>
+      <category id="1206" parentId="1203">Чехлы к ноутбукам</category>
+      <category id="1207" parentId="1203">Чехлы к планшетам</category>
+      <category id="1208" parentId="1203">Чехлы к электронным книгам</category>
+      <category id="1209" parentId="1181">Носители информации</category>
+      <category id="1210" parentId="1209">Внешние жесткие диски (HDD)</category>
+      <category id="1211" parentId="1181">Аксессуары для ноутбуков</category>
+      <category id="1213" parentId="1211">Блоки питания</category>
+      <category id="1215" parentId="1211">Чистящие средства</category>
+      <category id="1217" parentId="1211">Док станции/порт репликаторы</category>
+      <category id="1218" parentId="1211">Автоадаптеры</category>
+      <category id="1227" parentId="1211">Аккумуляторные батареи</category>
+      <category id="1228" parentId="1211">USB- хабы</category>
+      <category id="1230" parentId="1211">Аксессуары разные</category>
+      <category id="1233" parentId="1181">Комплектующие к ноутбукам</category>
+      <category id="1234" parentId="1233">Внутренние HDD</category>
+      <category id="1235" parentId="1233">Внутренние SSD</category>
+      <category id="1236" parentId="1233">Внутренние ODD</category>
+      <category id="1237" parentId="1233">Модули памяти к ноутбукам</category>
+      <category id="1238" parentId="1330">Контроллеры ExpressCard</category>
+      <category id="1258" parentId="1559">Дополнительное оборудование</category>
+      <category id="1260" parentId="1487">Карты памяти</category>
+      <category id="1261" parentId="1561">Коммутаторы</category>
+      <category id="1263" parentId="1547">Рули</category>
+      <category id="1264" parentId="1330">Системные (материнские) платы</category>
+      <category id="1265" parentId="1553">Сканеры</category>
+      <category id="1266">Смартфоны, связь, навигация</category>
+      <category id="1268" parentId="1358">Фоторамки</category>
+      <category id="1269" parentId="1547">Клавиатуры</category>
+      <category id="1272" parentId="1547">Мышки</category>
+      <category id="1274" parentId="1266">Телефоны мобильные</category>
+      <category id="1275" parentId="1547">Комплекты (клавиатура+мышка)</category>
+      <category id="1277" parentId="1266">Навигаторы GPS</category>
+      <category id="1278" parentId="1547">Графические планшеты</category>
+      <category id="1280" parentId="1266">Видеорегистраторы</category>
+      <category id="1282" parentId="7817">Портативные рации</category>
+      <category id="1285" parentId="1290">Bluetooth-гарнитуры</category>
+      <category id="1286" parentId="1266">Аккумуляторы и зарядные устройства</category>
+      <category id="1287" parentId="1286">Аккумуляторы внешние</category>
+      <category id="1288" parentId="1286">Аккумуляторы внутренние</category>
+      <category id="1289" parentId="1286">Зарядные устройства</category>
+      <category id="1290" parentId="1266">Аксессуары к мобильным телефонам</category>
+      <category id="1291" parentId="1290">Чехлы для мобильных телефонов</category>
+      <category id="1292" parentId="1290">Пленки защитные</category>
+      <category id="1293" parentId="1561">Wi-Fi точки доступа</category>
+      <category id="1308" parentId="1331">Мультимедиа</category>
+      <category id="1330">Комплектующие для ПК</category>
+      <category id="1331">Компьютеры, аксессуары</category>
+      <category id="1332" parentId="1553">Копиры</category>
+      <category id="1333" parentId="1561">Маршрутизаторы</category>
+      <category id="1334" parentId="1330">Модули памяти для компьютера</category>
+      <category id="1356" parentId="1358">Фотосумки и рюкзаки</category>
+      <category id="1357" parentId="1487">Твердотельные накопители (SSD)</category>
+      <category id="1358" parentId="1513">Фото- видео камеры</category>
+      <category id="1359" parentId="1094">GSM модемы</category>
+      <category id="1360" parentId="1308">Вебкамеры</category>
+      <category id="1361" parentId="1330">Жесткие диски (HDD)</category>
+      <category id="1363" parentId="1308">Микрофоны</category>
+      <category id="1365" parentId="1308">Наушники и гарнитуры</category>
+      <category id="1366" parentId="1554">Бумага и пленка для печати</category>
+      <category id="1368" parentId="1330">Аксессуары к HDD</category>
+      <category id="1369" parentId="1561">Wi-Fi аксессуары</category>
+      <category id="1377" parentId="1330">Оптические приводы (ODD)</category>
+      <category id="1378">Периферия, оргтехника</category>
+      <category id="1379" parentId="1561">Принт-сервера</category>
+      <category id="1380" parentId="1358">Вспышки</category>
+      <category id="1381" parentId="1559">Телефоны беспроводные</category>
+      <category id="1382" parentId="1331">Кабели и переходники</category>
+      <category id="1383" parentId="1559">Телефоны проводные</category>
+      <category id="1384" parentId="1331">Коврики и салфетки</category>
+      <category id="1385" parentId="1559">Факсы</category>
+      <category id="1387" parentId="1331">Адаптеры и концентраторы</category>
+      <category id="1390" parentId="1564">Кабель сетевой</category>
+      <category id="1391" parentId="1330">Кардридеры</category>
+      <category id="1392">Сетевое оборудование</category>
+      <category id="1393" parentId="1358">Фильтры, бленды, крышки</category>
+      <category id="1394" parentId="1560">Сканеры штрих-кодов</category>
+      <category id="1395" parentId="1358">Штативы</category>
+      <category id="1396" parentId="1290">Стилусы</category>
+      <category id="1397" parentId="1181">Программное обеспечение</category>
+      <category id="1401" parentId="1487">Компакт-диски и дискеты</category>
+      <category id="1402" parentId="1564">Розетки и короба</category>
+      <category id="1403" parentId="1330">Видеокарты</category>
+      <category id="1404" parentId="1378">Электрооборудование</category>
+      <category id="1405" parentId="1404">Аккумуляторные батареи для ИБП</category>
+      <category id="1406" parentId="1330">Кулеры к видеокартам</category>
+      <category id="1407" parentId="1404">Сетевые фильтры</category>
+      <category id="1417" parentId="1358">Другие аксессуары</category>
+      <category id="1418" parentId="1397">Компьютерные игры</category>
+      <category id="1419" parentId="1392">Сетевые камеры</category>
+      <category id="1423" parentId="1392">Инструменты и тестеры</category>
+      <category id="1432" parentId="1330">Звуковые платы</category>
+      <category id="1434" parentId="1392">KVM оборудование</category>
+      <category id="1435" parentId="1358">Аккумуляторы и зарядные устройства</category>
+      <category id="1437" parentId="1513">Батарейки</category>
+      <category id="1438" parentId="1330">TV-тюнеры</category>
+      <category id="1439" parentId="1330">Контроллеры и конверторы</category>
+      <category id="1440" parentId="1330">Сетевые карты и адаптеры</category>
+      <category id="1441" parentId="1330">Корпуса</category>
+      <category id="1442" parentId="1330">Блоки питания</category>
+      <category id="1443" parentId="1330">Вентиляторы к корпусам</category>
+      <category id="1444" parentId="1290">Прочее</category>
+      <category id="1445" parentId="1330">Многофункциональные панели</category>
+      <category id="1463" parentId="1331">Серверное оборудование</category>
+      <category id="1466" parentId="1211">Мышки</category>
+      <category id="1467" parentId="1209">Оптические приводы (ODD)</category>
+      <category id="1468" parentId="1209">USB Flash</category>
+      <category id="1469" parentId="1209">Карты памяти</category>
+      <category id="1470" parentId="1209">Картридеры</category>
+      <category id="1471" parentId="1211">Подставки для ноутбуков</category>
+      <category id="1474" parentId="1233">Wi-Fi адаптеры ExpressCard</category>
+      <category id="1475" parentId="1331">Мониторы и аксессуары</category>
+      <category id="1481" parentId="1358">Карточки памяти</category>
+      <category id="1484" parentId="1330">SSD диски</category>
+      <category id="1487" parentId="1331">Носители информации</category>
+      <category id="1493" parentId="1358">Батарейки к фото</category>
+      <category id="1513">ТВ, Аудио, Видео, Фото</category>
+      <category id="1515" parentId="1513">MP3/MP4-плееры и диктофоны</category>
+      <category id="1547" parentId="1331">Манипуляторы</category>
+      <category id="1552" parentId="1358">Объективы</category>
+      <category id="1553" parentId="1378">Техника для печати и сканирования</category>
+      <category id="1554" parentId="1378">Расходные материалы</category>
+      <category id="1555" parentId="1554">СНПЧ и ПЗК</category>
+      <category id="1556" parentId="1554">Чернила и контейнеры</category>
+      <category id="1558" parentId="1554">Тонер фасованый и мешковой</category>
+      <category id="1559" parentId="1378">Стационарная телефония</category>
+      <category id="1560" parentId="1378">Торговое оборудование</category>
+      <category id="1561" parentId="1392">Активное сетевое оборудование</category>
+      <category id="1562" parentId="1392">VOIP</category>
+      <category id="1563" parentId="1392">NAS</category>
+      <category id="1564" parentId="1392">Пассивное сетевое оборудование</category>
+      <category id="7264" parentId="1266">Мобильный интернет</category>
+      <category id="7265" parentId="7264">GSM-Wifi роутеры</category>
+      <category id="7266" parentId="7264">3G-модемы</category>
+      <category id="7267" parentId="7264">GSM шлюзы</category>
+      <category id="7271">Услуги</category>
+      <category id="7273" parentId="1404">Источники бесперебойного питания</category>
+      <category id="7275">Мелкая бытовая техника</category>
+      <category id="7276" parentId="7275">Кухонная техника</category>
+      <category id="7277" parentId="7276">Блендеры</category>
+      <category id="7278" parentId="7276">Микроволновые печи</category>
+      <category id="7279" parentId="7276">Миксеры</category>
+      <category id="7280" parentId="7276">Мороженицы</category>
+      <category id="7281" parentId="7276">Мультиварки</category>
+      <category id="7282" parentId="7276">Мясорубки</category>
+      <category id="7283" parentId="7276">Пароварки</category>
+      <category id="7284" parentId="7276">Соковыжималки</category>
+      <category id="7285" parentId="7276">Сушки для фруктов и овощей</category>
+      <category id="7286" parentId="7276">Тостеры</category>
+      <category id="7287" parentId="7276">Фритюрницы</category>
+      <category id="7288" parentId="7276">Бутербродницы</category>
+      <category id="7289" parentId="7276">Хлебопечки</category>
+      <category id="7290" parentId="7276">Электропечи</category>
+      <category id="7291" parentId="7276">Электрочайники и термопоты</category>
+      <category id="7292" parentId="7276">Измельчители</category>
+      <category id="7293" parentId="7276">Аксессуары к кухонной технике</category>
+      <category id="7294" parentId="7276">Весы кухонные</category>
+      <category id="7295" parentId="7276">Грили</category>
+      <category id="7296" parentId="7276">Йогуртницы</category>
+      <category id="7297" parentId="7276">Кофеварки и кофемашины</category>
+      <category id="7298" parentId="7276">Кофемолки</category>
+      <category id="7299" parentId="7276">Кухонные комбайны</category>
+      <category id="7300" parentId="7276">Ломтерезки</category>
+      <category id="7302" parentId="7275">Персональная бытовая техника</category>
+      <category id="7303" parentId="7302">Весы</category>
+      <category id="7305" parentId="7302">Косметические приборы</category>
+      <category id="7306" parentId="7302">Массажеры</category>
+      <category id="7307" parentId="7302">Машинки для стрижки</category>
+      <category id="7308" parentId="7302">Плойки и выпрямители</category>
+      <category id="7309" parentId="7302">Триммеры</category>
+      <category id="7310" parentId="7302">Фены</category>
+      <category id="7311" parentId="7302">Электробритвы</category>
+      <category id="7312" parentId="7302">Эпиляторы</category>
+      <category id="7313" parentId="7275">Техника для дома</category>
+      <category id="7315" parentId="7313">Пылесосы</category>
+      <category id="7316" parentId="7313">Утюги</category>
+      <category id="7317" parentId="7442">Стиральные машины и аксессуары</category>
+      <category id="7318" parentId="7313">Пароочистители</category>
+      <category id="7321" parentId="1111">Опции для проекторов</category>
+      <category id="7324" parentId="1266">Эхолоты</category>
+      <category id="7325" parentId="1378">Канцтовары</category>
+      <category id="7327" parentId="1561">Аксессуары для коммутаторов</category>
+      <category id="7328" parentId="1561">Фаерволы</category>
+      <category id="7329" parentId="1561">Рowerline оборудование</category>
+      <category id="7331" parentId="1561">Сетевые карты и адаптеры</category>
+      <category id="7332" parentId="1094">xDSL оборудование</category>
+      <category id="7333" parentId="1094">Факс-модемы</category>
+      <category id="7334" parentId="1094">Аксесcуары к xDSL</category>
+      <category id="7353" parentId="1564">Шкафы и аксессуары</category>
+      <category id="7354" parentId="1564">Оптоволоконное оборудование</category>
+      <category id="7360" parentId="7276">Электроплиты</category>
+      <category id="7361" parentId="7276">Блинницы</category>
+      <category id="7364" parentId="7302">Зубные щетки</category>
+      <category id="7365" parentId="7302">Машинки для чистки трикотажа</category>
+      <category id="7368" parentId="7313">Очистители воздуха</category>
+      <category id="7370" parentId="7313">Вентиляторы</category>
+      <category id="7371" parentId="7313">Энергосберегающие лампы</category>
+      <category id="7372" parentId="7313">Увлажнители воздуха</category>
+      <category id="7373" parentId="7456">Радиоуправляемые игрушки</category>
+      <category id="7374" parentId="1330">Баребони</category>
+      <category id="7378" parentId="1290">Автодержатели и автокомплекты</category>
+      <category id="7379" parentId="1290">Кабели и переходники</category>
+      <category id="7381" parentId="1463">Серверы</category>
+      <category id="7383" parentId="1392">Охранные системы</category>
+      <category id="7384" parentId="7383">Датчики вибрации</category>
+      <category id="7385" parentId="7383">Домофоны и панели вызова</category>
+      <category id="7386" parentId="7383">Инфракрасные барьеры</category>
+      <category id="7387" parentId="7383">Камеры</category>
+      <category id="7388" parentId="7383">Комплекты</category>
+      <category id="7389" parentId="7383">Регистраторы</category>
+      <category id="7390" parentId="7383">Аксессуары для охранных систем</category>
+      <category id="7391" parentId="7383">Датчики открытия</category>
+      <category id="7392" parentId="7383">Датчики газу</category>
+      <category id="7393" parentId="7383">Датчики дыма</category>
+      <category id="7394" parentId="7383">Датчики затопления</category>
+      <category id="7395" parentId="7383">Датчики освещения</category>
+      <category id="7396" parentId="7383">Датчики разбития</category>
+      <category id="7397" parentId="7383">Датчики движения</category>
+      <category id="7398" parentId="7383">Датчики температуры</category>
+      <category id="7399" parentId="1266">Карточки пополнения</category>
+      <category id="7400" parentId="1463">Системы хранения данных</category>
+      <category id="7401" parentId="1463">Платформы серверные</category>
+      <category id="7403" parentId="1463">Системные платы серверные</category>
+      <category id="7404" parentId="1463">Модули памяти к серверам</category>
+      <category id="7405" parentId="1463">Жесткие диски серверные</category>
+      <category id="7406" parentId="1463">Контроллеры,  адаптеры</category>
+      <category id="7407" parentId="1463">Корпуса и БП для серверов</category>
+      <category id="7409" parentId="7302">Тонометры</category>
+      <category id="7410" parentId="7373">Автомобили</category>
+      <category id="7411" parentId="7373">Вертолеты</category>
+      <category id="7412" parentId="7373">Квадрокоптеры</category>
+      <category id="7413" parentId="7373">Танки</category>
+      <category id="7414" parentId="7373">Катера</category>
+      <category id="7415" parentId="7373">Самолеты</category>
+      <category id="7416" parentId="7698">Аксессуары для рыбалки</category>
+      <category id="7417">Товары для спорта и отдыха</category>
+      <category id="7418" parentId="7697">Мангалы, барбекю, гриль</category>
+      <category id="7419" parentId="7697">Надувные матрацы, кресла, маски</category>
+      <category id="7420" parentId="7715">Палатки и тенты</category>
+      <category id="7421" parentId="7696">Ножи</category>
+      <category id="7422" parentId="7715">Горелки, лампы и баллоны</category>
+      <category id="7423" parentId="7704">Пневматические винтовки</category>
+      <category id="7424" parentId="7698">Поплавки</category>
+      <category id="7425" parentId="7698">Приманки</category>
+      <category id="7426" parentId="7715">Рюкзаки, чехлы и  накидки для рюкзаков</category>
+      <category id="7427" parentId="7715">Спальные мешки</category>
+      <category id="7428" parentId="7715">Аксессуары и расходные к газовой продукции</category>
+      <category id="7429" parentId="7698">Спиннинги, удочки</category>
+      <category id="7430" parentId="7697">Сумки-холодильники и портативные холодильники</category>
+      <category id="7431" parentId="7715">Термопродукция</category>
+      <category id="7432" parentId="7715">Туристическая посуда</category>
+      <category id="7433" parentId="7715">Туристические коврики</category>
+      <category id="7434" parentId="7697">Биотуалеты</category>
+      <category id="7435" parentId="7697">Расходные к биотуалетам</category>
+      <category id="7436" parentId="7715">Доп оборудование к палаткам</category>
+      <category id="7437" parentId="7697">Кемпинговая мебель</category>
+      <category id="7438" parentId="7698">Катушки</category>
+      <category id="7439" parentId="7698">Леска, шнуры</category>
+      <category id="7440" parentId="7715">Фонари</category>
+      <category id="7442">Крупная бытовая техника</category>
+      <category id="7443" parentId="7442">Бойлеры и водонагреватели</category>
+      <category id="7445" parentId="7313">Швейные машины</category>
+      <category id="7446" parentId="7442">Варочные поверхности</category>
+      <category id="7447" parentId="7442">Вытяжки кухонные</category>
+      <category id="7448" parentId="7442">Духовки</category>
+      <category id="7449" parentId="7442">Посудомойные машины и аксессуары</category>
+      <category id="7450" parentId="7442">Холодильники и аксессуары</category>
+      <category id="7451">Сантехника и мебель</category>
+      <category id="7452" parentId="8491">Вешалки</category>
+      <category id="7453" parentId="8494">Кресла</category>
+      <category id="7454" parentId="8494">Стулья и табуреты</category>
+      <category id="7456">Товары для детей</category>
+      <category id="7458" parentId="7726">Интерактивные игрушки</category>
+      <category id="7459" parentId="7731">Каталки</category>
+      <category id="7460" parentId="7731">Коляски</category>
+      <category id="7461" parentId="7726">Конструкторы</category>
+      <category id="7462" parentId="7728">Косметика для малыша и мамы</category>
+      <category id="7463" parentId="7726">Кубики</category>
+      <category id="7464" parentId="7728">Горшки и подставки</category>
+      <category id="7465" parentId="7727">Детская оптика</category>
+      <category id="7466" parentId="7728">Детская посуда</category>
+      <category id="7467" parentId="7729">Детские велосипеды</category>
+      <category id="7468" parentId="7731">Детские манежи</category>
+      <category id="7469" parentId="7731">Игрушки для малышей</category>
+      <category id="7470" parentId="7726">Игрушечное оружие</category>
+      <category id="7471" parentId="7726">Игровые наборы</category>
+      <category id="7472" parentId="7726">Куклы и аксессуары</category>
+      <category id="7473" parentId="7726">Мыльные пузыри</category>
+      <category id="7474" parentId="7727">Модели для складывания</category>
+      <category id="7475" parentId="7728">Молокоотсосы</category>
+      <category id="7476" parentId="7726">Музыкальные игрушки</category>
+      <category id="7477" parentId="7726">Мягкие игрушки</category>
+      <category id="7478" parentId="7727">Наборы для творчества</category>
+      <category id="7479" parentId="7726">Настольные игры</category>
+      <category id="7480" parentId="7726">Пазлы</category>
+      <category id="7481" parentId="7728">Подставки, коврики и сидения в ванную</category>
+      <category id="7482" parentId="7728">Бутылочки для кормления и аксессуары</category>
+      <category id="7484" parentId="7726">Развивающие игрушки</category>
+      <category id="7485" parentId="7731">Светильники</category>
+      <category id="7486" parentId="7729">Скутеры</category>
+      <category id="7487" parentId="7728">Соски, пустышки прорезыватели</category>
+      <category id="7488" parentId="7731">Прыгуны, ходунки</category>
+      <category id="7489" parentId="7728">Термометры</category>
+      <category id="7490" parentId="7726">Транспорт</category>
+      <category id="7491" parentId="7726">Трансформеры и роботы</category>
+      <category id="7492" parentId="7726">Фигурки</category>
+      <category id="7493" parentId="7731">Чудомобили</category>
+      <category id="7494" parentId="7731">Шезлонги, коврики кресла-качалки</category>
+      <category id="7495" parentId="7726">Ящики для игрушек</category>
+      <category id="7496" parentId="7696">Мультитулы</category>
+      <category id="7497" parentId="7715">Термобелье</category>
+      <category id="7498" parentId="7696">Точилки</category>
+      <category id="7500" parentId="7731">Автокресла</category>
+      <category id="7501" parentId="7932">Калькуляторы</category>
+      <category id="7502" parentId="7932">Детекторы валют</category>
+      <category id="7503" parentId="7932">Счетчики банкнот</category>
+      <category id="7504" parentId="1378">Обработка документов</category>
+      <category id="7505" parentId="7504">Ламинаторы</category>
+      <category id="7506" parentId="7504">Палитурное оборудование</category>
+      <category id="7507" parentId="7504">Палитурные материалы</category>
+      <category id="7508" parentId="7504">Резаки, триммеры</category>
+      <category id="7509" parentId="7504">Уничтожители документов</category>
+      <category id="7510" parentId="7817">Аксессуары к портативным рациям</category>
+      <category id="7520" parentId="7442">Сушильные машины и аксессуары</category>
+      <category id="7531" parentId="7442">Кондиционеры</category>
+      <category id="7536" parentId="7442">Морозильные камеры</category>
+      <category id="7554" parentId="7442">Обогреватели и аксессуары</category>
+      <category id="7655" parentId="7442">Плиты и аксессуары для плит</category>
+      <category id="7682" parentId="1475">Мониторы</category>
+      <category id="7683" parentId="1475">Аксессуары к мониторам</category>
+      <category id="7689" parentId="7728">Подгузники и пеленки</category>
+      <category id="7690" parentId="7417">Велотовары</category>
+      <category id="7691" parentId="7690">Велосипеды</category>
+      <category id="7692" parentId="7690">Аксессуары к велосипедам</category>
+      <category id="7693" parentId="7690">Кронштейны к велосипедам</category>
+      <category id="7695" parentId="7699">Коньки</category>
+      <category id="7696" parentId="7417">Ножи и мультитулы</category>
+      <category id="7697" parentId="7417">Пикник, кемпинг</category>
+      <category id="7698" parentId="7417">Рыбалка</category>
+      <category id="7699" parentId="7417">Коньки, ролики, скейтборды, лыжи</category>
+      <category id="7700" parentId="7699">Защита</category>
+      <category id="7702" parentId="7699">Самокаты</category>
+      <category id="7703" parentId="7699">Скейтборды</category>
+      <category id="7704" parentId="7417">Спортивное оружие</category>
+      <category id="7705" parentId="7704">Арбалеты и луки</category>
+      <category id="7707" parentId="7704">Средства для чистки</category>
+      <category id="7708" parentId="7704">Оружие под патрон Флобера</category>
+      <category id="7710" parentId="7704">Пневматические пистолеты</category>
+      <category id="7711" parentId="7704">Расходные материалы к оружию</category>
+      <category id="7712" parentId="7417">Спортивные игры</category>
+      <category id="7713" parentId="7712">Мячи для командных игр</category>
+      <category id="7714" parentId="7712">Настольный теннис</category>
+      <category id="7715" parentId="7417">Туризм</category>
+      <category id="7716" parentId="7417">Фитнес</category>
+      <category id="7718" parentId="7716">Атлетические аксессуары</category>
+      <category id="7719" parentId="7716">Гантели, грифы, штанги, диски</category>
+      <category id="7720" parentId="7716">Тренажеры</category>
+      <category id="7726" parentId="7456">Игрушки</category>
+      <category id="7727" parentId="7456">Хобби и творчество</category>
+      <category id="7728" parentId="7456">Гигиена и средства по уходу</category>
+      <category id="7729" parentId="7456">Прогулка и активный отдых</category>
+      <category id="7730" parentId="7729">Детские электромобили</category>
+      <category id="7731" parentId="7456">Для малышей</category>
+      <category id="7740" parentId="1113">Кронштейны к DVD/BD/медиа-плеерам</category>
+      <category id="7743" parentId="1111">Проекторы</category>
+      <category id="7744" parentId="1111">Кронштейны к проекторам</category>
+      <category id="7746" parentId="7554">Обогреватели</category>
+      <category id="7749" parentId="7554">Кронштейны к обогревателям</category>
+      <category id="7790" parentId="1404">Стабилизаторы напряжения</category>
+      <category id="7791">Электротехника, инструменты</category>
+      <category id="7792" parentId="7791">Электроинсталляция</category>
+      <category id="7793" parentId="7791">Средства монтажа</category>
+      <category id="7794" parentId="7791">Реле напряжения</category>
+      <category id="7810" parentId="1331">Техника для печати и сканирования</category>
+      <category id="7811" parentId="1331">Электрооборудование</category>
+      <category id="7812" parentId="1331">Программное обеспечение</category>
+      <category id="7813" parentId="1378">Мониторы и аксессуары</category>
+      <category id="7815" parentId="1513">Аксессуары к телевизорам</category>
+      <category id="7816" parentId="1266">Стационарная телефония</category>
+      <category id="7817" parentId="1266">Портативные рации и аксессуары</category>
+      <category id="7818" parentId="1209">Компакт диски и дискеты</category>
+      <category id="7819" parentId="7810">Многофункциональные устройства</category>
+      <category id="7820" parentId="7810">Принтеры</category>
+      <category id="7821" parentId="7810">Сканеры</category>
+      <category id="7822" parentId="7811">Источники бесперебойного питания</category>
+      <category id="7823" parentId="7811">Аккумуляторные батареи для ИБП</category>
+      <category id="7824" parentId="7811">Стабилизаторы напряжения</category>
+      <category id="7825" parentId="7811">Сетевые фильтры питания</category>
+      <category id="7826" parentId="1487">Картридеры</category>
+      <category id="7827" parentId="1487">Оптические приводы (ODD)</category>
+      <category id="7829" parentId="7812">Антивирусы</category>
+      <category id="7830" parentId="7812">Архиваторы</category>
+      <category id="7831" parentId="7816">Телефоны беспроводные</category>
+      <category id="7832" parentId="7816">Телефоны проводные</category>
+      <category id="7833" parentId="7816">Факсы</category>
+      <category id="7834" parentId="7816">Офисные АТС</category>
+      <category id="7835" parentId="7816">Системные телефоны</category>
+      <category id="7836" parentId="7816">Дополнительное оборудование</category>
+      <category id="7837" parentId="7813">Мониторы</category>
+      <category id="7838" parentId="7813">Аксессуары к мониторам</category>
+      <category id="7839" parentId="1378">Проекторы и аксессуары</category>
+      <category id="7842" parentId="7729">Игровые комплексы</category>
+      <category id="7843" parentId="7729">Мячи</category>
+      <category id="7844" parentId="7839">Проекторы</category>
+      <category id="7845" parentId="7839">Экраны для проекторов</category>
+      <category id="7846" parentId="7839">Кронштейны к проекторам</category>
+      <category id="7847" parentId="7839">Лампы</category>
+      <category id="7848" parentId="7839">Презентеры</category>
+      <category id="7849" parentId="7839">Интерактивные доски</category>
+      <category id="7850" parentId="7839">Презентационные дисплеи</category>
+      <category id="7851" parentId="7839">Опции для проекторов</category>
+      <category id="7852" parentId="8162">Умные часы</category>
+      <category id="7861" parentId="7451">Торговое оборудование</category>
+      <category id="7882" parentId="8162">Фитнес-браслеты</category>
+      <category id="7883" parentId="7731">Радио- и видеоняни</category>
+      <category id="7884" parentId="7731">Стулья для кормления</category>
+      <category id="7885" parentId="7731">Аксессуары для колясок и автокресел</category>
+      <category id="7886" parentId="1513">Магнитолы</category>
+      <category id="7887" parentId="7731">Кроватки</category>
+      <category id="7888" parentId="7373">Запчасти</category>
+      <category id="7889" parentId="1330">Акссесуары к системам охлаждения</category>
+      <category id="7899" parentId="7276">Разная кухонная техника</category>
+      <category id="7900" parentId="1463">Серверные процессоры</category>
+      <category id="7901" parentId="1308">Кронштейны для акустики</category>
+      <category id="7902" parentId="1553">Аксессуары к принтерам</category>
+      <category id="7903" parentId="7810">Кабели для принтера</category>
+      <category id="7904" parentId="1330">Кабели и переходники</category>
+      <category id="7905" parentId="7815">Кабели мультимедийные</category>
+      <category id="7906" parentId="1564">Кабель телефонный</category>
+      <category id="7907" parentId="1564">Коннектор</category>
+      <category id="7908" parentId="1564">Колпачек коннектора</category>
+      <category id="7909" parentId="1564">Патч-корд</category>
+      <category id="7910" parentId="1382">Питание</category>
+      <category id="7911" parentId="1382">Передача данных</category>
+      <category id="7912" parentId="1382">Другие кабели</category>
+      <category id="7913" parentId="7271">Настройки</category>
+      <category id="7914" parentId="7271">Защита</category>
+      <category id="7915" parentId="7271">Подключение</category>
+      <category id="7916" parentId="7271">Сервисные услуги</category>
+      <category id="7917" parentId="7271">Эксклюзивные чехлы</category>
+      <category id="7918" parentId="1382">Мультимедиа</category>
+      <category id="7919" parentId="1382">Дата-кабели</category>
+      <category id="7920" parentId="7904">Мультимедиа</category>
+      <category id="7921" parentId="7904">Питание</category>
+      <category id="7922" parentId="7904">Передача данных</category>
+      <category id="7923" parentId="7904">Дата-кабели</category>
+      <category id="7924" parentId="1513">Чистящие средства</category>
+      <category id="7925" parentId="1554">Картриджи</category>
+      <category id="7926" parentId="1330">Термопасты</category>
+      <category id="7927" parentId="1404">Инверторы</category>
+      <category id="7928" parentId="7264">GSM модемы</category>
+      <category id="7929" parentId="7791">Батарейки</category>
+      <category id="7932">Торговое оборудование</category>
+      <category id="7933" parentId="7932">Весы</category>
+      <category id="7934" parentId="7932">Денежный ящик</category>
+      <category id="7935" parentId="7932">Индикатор покупателя</category>
+      <category id="7936" parentId="7932">Кассовый аппарат</category>
+      <category id="7937" parentId="7932">Принтер пластиковых карт</category>
+      <category id="7938" parentId="7932">Принтер чеков</category>
+      <category id="7939" parentId="7932">Принтер этикеток</category>
+      <category id="7940" parentId="7932">Сканер штрих-кодов</category>
+      <category id="7941" parentId="7932">Считыватель магнитных карт</category>
+      <category id="7942" parentId="7932">Терминал сбора данных</category>
+      <category id="7943" parentId="7932">Фискальный регистратор</category>
+      <category id="7944" parentId="7932">Этикет-лента</category>
+      <category id="7945" parentId="7932">Этикет-пистолет</category>
+      <category id="7946" parentId="7932">POS-терминал</category>
+      <category id="7947" parentId="7932">POS-монитор</category>
+      <category id="7948">Быт.химия, косметика, гигиена</category>
+      <category id="7949" parentId="7969">Стиральные порошоки</category>
+      <category id="7950" parentId="7969">Жидкий порошок</category>
+      <category id="7951" parentId="7969">Гели для стирки</category>
+      <category id="7952" parentId="7969">Капсулы для стирки</category>
+      <category id="7953" parentId="7969">Кондиционеры для белья</category>
+      <category id="7954" parentId="7969">Средства для удаления пятен</category>
+      <category id="7955" parentId="7969">Отбеливатели</category>
+      <category id="7956" parentId="7969">Средства для мытья посуды</category>
+      <category id="7957" parentId="7969">Капсулы для мытья посуды</category>
+      <category id="7958" parentId="7969">Таблетки для посудомоек</category>
+      <category id="7959" parentId="7969">Средства для чистки унитазов</category>
+      <category id="7960" parentId="7969">Порошки для чистки кухни</category>
+      <category id="7961" parentId="7969">Гели для чистки ванн</category>
+      <category id="7962" parentId="7969">Спреи для чистки ванн</category>
+      <category id="7963" parentId="7969">Средства для мытья пола</category>
+      <category id="7964" parentId="7969">Средства для мытья окон</category>
+      <category id="7965" parentId="7969">Освежители воздуха</category>
+      <category id="7966" parentId="7969">Туалетные блоки и стикеры</category>
+      <category id="7967" parentId="1561">Медиаконвертер</category>
+      <category id="7968" parentId="7969">Смягчители воды</category>
+      <category id="7969" parentId="7948">Бытовая химия</category>
+      <category id="7970" parentId="7948">Средства для бритья</category>
+      <category id="7971" parentId="7970">Бальзам после бритья</category>
+      <category id="7972" parentId="7970">Бритва</category>
+      <category id="7973" parentId="7970">Гель для бритья</category>
+      <category id="7974" parentId="7970">Гель после бритья</category>
+      <category id="7975" parentId="7970">Крем после бритья</category>
+      <category id="7976" parentId="7970">Набор для бритья</category>
+      <category id="7977" parentId="7970">Лосьон после бритья</category>
+      <category id="7978" parentId="7970">Пена для бритья</category>
+      <category id="7979" parentId="7970">Сменные кассеты</category>
+      <category id="7980" parentId="1561">IP-видеорегистратор</category>
+      <category id="7981" parentId="1181">Аксессуары для планшетов</category>
+      <category id="7982" parentId="7981">Блоки питания</category>
+      <category id="7983" parentId="7948">Хозяйственные товары</category>
+      <category id="7984" parentId="7983">Туалетная бумага, полотенца</category>
+      <category id="7986" parentId="1358">Экшн-камеры</category>
+      <category id="7988" parentId="7983">Губки, перчатки, салфетки</category>
+      <category id="7989" parentId="7983">Пакеты для мусора</category>
+      <category id="7990" parentId="7983">Аксессуары для уборки и ухода</category>
+      <category id="7991" parentId="7983">Пищевая упаковка</category>
+      <category id="7992" parentId="7983">Салфетки столовые</category>
+      <category id="7993" parentId="7983">Платки носовые</category>
+      <category id="7995" parentId="7948">Средства защиты от насекомых</category>
+      <category id="7996" parentId="7995">Спрей от комаров</category>
+      <category id="7997" parentId="7995">Аэрозоль от комаров</category>
+      <category id="7998" parentId="7995">Крем от комаров</category>
+      <category id="7999" parentId="7995">Жидкость от комаров</category>
+      <category id="8000" parentId="7995">Спирали от комаров</category>
+      <category id="8001" parentId="7995">Гель после укусов насекомых</category>
+      <category id="8002" parentId="7995">Аэрозоль от летающих и ползающих насекомых</category>
+      <category id="8003" parentId="7995">Аэрозоль против тараканов</category>
+      <category id="8004" parentId="7995">Электрофумигатор</category>
+      <category id="8005" parentId="7995">Пластины для фумигатора</category>
+      <category id="8006" parentId="7995">Гель от моли</category>
+      <category id="8007" parentId="7995">Подушечки от моли</category>
+      <category id="8008" parentId="7995">Подвеска от моли</category>
+      <category id="8009" parentId="7995">Липкая лента</category>
+      <category id="8010" parentId="7995">Приманка</category>
+      <category id="8011" parentId="7995">Комплект сменных картриджей</category>
+      <category id="8012" parentId="7995">Средство с фен системой</category>
+      <category id="8013">Канцтовары</category>
+      <category id="8014" parentId="8013">Бланки, книги учета</category>
+      <category id="8015" parentId="7932">Кассовая лента</category>
+      <category id="8016" parentId="7932">Риббоны</category>
+      <category id="8017" parentId="7932">Аксессуары к торговому оборудованию</category>
+      <category id="8018" parentId="8013">Блокноты, записные книжки, дневники</category>
+      <category id="8019" parentId="8013">Канцелярские мелочи</category>
+      <category id="8020" parentId="8013">Канцелярские инструменты</category>
+      <category id="8021" parentId="8018">Блокноты</category>
+      <category id="8022" parentId="8018">Бумага для заметок</category>
+      <category id="8023" parentId="8018">Канцелярские книги</category>
+      <category id="8024" parentId="8019">Бейдж</category>
+      <category id="8025" parentId="8019">Биндер металлический</category>
+      <category id="8026" parentId="8019">Резинка</category>
+      <category id="8027" parentId="8019">Клей</category>
+      <category id="8028" parentId="8019">Кнопки</category>
+      <category id="8029" parentId="8019">Корректор</category>
+      <category id="8030" parentId="8019">Линейка</category>
+      <category id="8031" parentId="8019">Магнит</category>
+      <category id="8032" parentId="8019">Резинки для денег</category>
+      <category id="8033" parentId="8019">Скотч</category>
+      <category id="8034" parentId="8019">Скрепки</category>
+      <category id="8035" parentId="8020">Антистеплер</category>
+      <category id="8036" parentId="8020">Дырокол</category>
+      <category id="8037" parentId="8020">Лезвия для канцелярских ножей</category>
+      <category id="8038" parentId="8020">Настольный набор</category>
+      <category id="8039" parentId="8020">Нож канцелярский</category>
+      <category id="8040" parentId="8020">Ножницы</category>
+      <category id="8041" parentId="8020">Скобы для степлера</category>
+      <category id="8042" parentId="8020">Степлер</category>
+      <category id="8043" parentId="8020">Точилка</category>
+      <category id="8044" parentId="8013">Бумажная канцелярия</category>
+      <category id="8045" parentId="8044">Конверт</category>
+      <category id="8046" parentId="8044">Подарочный пакет</category>
+      <category id="8047" parentId="8044">Разделитель страниц</category>
+      <category id="8048" parentId="8044">Стикер-закладка</category>
+      <category id="8049" parentId="8013">Папки, файлы, боксы</category>
+      <category id="8050" parentId="8049">Архивный бокс</category>
+      <category id="8051" parentId="8049">Визитница</category>
+      <category id="8052" parentId="8049">Клипборд-папка</category>
+      <category id="8053" parentId="8049">Короб для архивных боксов</category>
+      <category id="8054" parentId="8049">Папка - конверт</category>
+      <category id="8055" parentId="8049">Папка - уголок</category>
+      <category id="8056" parentId="8049">Папка - портфель</category>
+      <category id="8057" parentId="8049">Папка - регистратор</category>
+      <category id="8058" parentId="8049">Папка с зажимом</category>
+      <category id="8059" parentId="8049">Папка с файлами</category>
+      <category id="8060" parentId="8049">Папка на молнии</category>
+      <category id="8061" parentId="8049">Папка на завязках</category>
+      <category id="8062" parentId="8049">Папка на кольцах</category>
+      <category id="8063" parentId="8049">Папка на резинках</category>
+      <category id="8064" parentId="8049">Папка подвесная</category>
+      <category id="8065" parentId="8049">Папка-скоросшиватель</category>
+      <category id="8066" parentId="8049">Файл</category>
+      <category id="8067" parentId="8049">Файл подвесной</category>
+      <category id="8068" parentId="8013">Письменные принадлежности</category>
+      <category id="8069" parentId="8068">Грифель для механического карандаша</category>
+      <category id="8070" parentId="8068">Лайнер</category>
+      <category id="8071" parentId="8068">Маркер</category>
+      <category id="8072" parentId="8068">Карандаш графитный</category>
+      <category id="8073" parentId="8068">Карандаш механический</category>
+      <category id="8074" parentId="8068">Карандаши цветные</category>
+      <category id="8075" parentId="8068">Роллер</category>
+      <category id="8076" parentId="8068">Ручка гелевая</category>
+      <category id="8077" parentId="8068">Ручка шариковая</category>
+      <category id="8078" parentId="8068">Ручка масляная</category>
+      <category id="8079" parentId="8068">Стержень гелевый</category>
+      <category id="8080" parentId="8068">Стержень шариковый</category>
+      <category id="8081" parentId="8068">Стержень масляный</category>
+      <category id="8082" parentId="8068">Тушь для черчения</category>
+      <category id="8084" parentId="8068">Фломастеры</category>
+      <category id="8085" parentId="8068">Чернила для перьевых ручек</category>
+      <category id="8086" parentId="8013">Презентационные принадлежности</category>
+      <category id="8087" parentId="8086">Корзина для бумаги</category>
+      <category id="8088" parentId="8086">Лоток для бумаги</category>
+      <category id="8089" parentId="8086">Подставка для визиток</category>
+      <category id="8090" parentId="8086">Подставка для мелочей</category>
+      <category id="8091" parentId="8086">Подставка для ручек</category>
+      <category id="8092" parentId="8086">Подставка для скрепок</category>
+      <category id="8093" parentId="8086">Подставка-куб для писем и бумаги</category>
+      <category id="8094" parentId="8013">Презентационные аксессуары</category>
+      <category id="8095" parentId="8013">Скотч и упаковочные материалы</category>
+      <category id="8096" parentId="8095">Скотч</category>
+      <category id="8097" parentId="8095">Скотч упаковочный</category>
+      <category id="8098" parentId="8095">Стрейч-пленка</category>
+      <category id="8099" parentId="8095">Пистолет для упаковочного скотча</category>
+      <category id="8100" parentId="8013">Штемпельная продукция</category>
+      <category id="8101" parentId="8100">Нумератор</category>
+      <category id="8102" parentId="8100">Краска штемпельная</category>
+      <category id="8103" parentId="7791">Наборы инструментов</category>
+      <category id="8104" parentId="7948">Косметика по уходу за волосами</category>
+      <category id="8105" parentId="8104">Шампунь</category>
+      <category id="8106" parentId="8104">Бальзам-ополаскиватель</category>
+      <category id="8107" parentId="8104">Кондиционер для волос</category>
+      <category id="8108" parentId="8104">Маска для волос</category>
+      <category id="8109" parentId="8104">Гель для волос</category>
+      <category id="8110" parentId="8104">Лак для волос</category>
+      <category id="8111" parentId="8104">Тоник для волос</category>
+      <category id="8112" parentId="8104">Спрей для волос</category>
+      <category id="8113" parentId="8104">Муссы для волос</category>
+      <category id="8114" parentId="8104">Мусс для волос</category>
+      <category id="8115" parentId="8104">Крем-краска для волос</category>
+      <category id="8116" parentId="8104">Краска-мусс для волос</category>
+      <category id="8117" parentId="8104">Осветитель</category>
+      <category id="8118" parentId="8104">Эликсир</category>
+      <category id="8119" parentId="8104">Спрей-гель</category>
+      <category id="8120" parentId="8104">Воск</category>
+      <category id="8121" parentId="7948">Косметика по уходу за телом</category>
+      <category id="8122" parentId="8121">Дезодоранты</category>
+      <category id="8123" parentId="8121">Гель для душа</category>
+      <category id="8124" parentId="8121">Лосьон для тела</category>
+      <category id="8125" parentId="8121">Мыло</category>
+      <category id="8126" parentId="8121">Жидкое мыло</category>
+      <category id="8127" parentId="7948">Средства интимной гигиены</category>
+      <category id="8128" parentId="8127">Прокладки</category>
+      <category id="8130" parentId="8127">Тампоны</category>
+      <category id="8131" parentId="7948">Уход за полостью рта</category>
+      <category id="8132" parentId="8131">Зубная паста</category>
+      <category id="8133" parentId="8131">Зубная щетка</category>
+      <category id="8134" parentId="8131">Зубная нить</category>
+      <category id="8135" parentId="8131">Ополаскиватель для полости рта</category>
+      <category id="8136" parentId="7981">Подставка к планшету</category>
+      <category id="8138" parentId="7456">Одежда</category>
+      <category id="8139" parentId="8138">Защита на кроватку</category>
+      <category id="8140" parentId="8138">Кардиганы ти джемперы</category>
+      <category id="8141" parentId="8138">Комбинезоны</category>
+      <category id="8142" parentId="8138">Комплект</category>
+      <category id="8143" parentId="8138">Купальники</category>
+      <category id="8144" parentId="8138">Куртки и верхняя одежда</category>
+      <category id="8145" parentId="8138">Боди</category>
+      <category id="8146" parentId="8138">Платья</category>
+      <category id="8147" parentId="8138">Покрывала и одеяла</category>
+      <category id="8148" parentId="8138">Полотенце для купания</category>
+      <category id="8149" parentId="8138">Слюнявчики</category>
+      <category id="8150" parentId="8138">Спальный конверт</category>
+      <category id="8151" parentId="8138">Спортивные костюмы</category>
+      <category id="8152" parentId="8138">Топы и туники</category>
+      <category id="8153" parentId="8138">Топы, футболки и рубашки</category>
+      <category id="8154" parentId="8138">Человечки</category>
+      <category id="8155" parentId="8138">Шапочки</category>
+      <category id="8156" parentId="8138">Носки</category>
+      <category id="8157" parentId="8138">Штанишки</category>
+      <category id="8159" parentId="7983">Перчатки</category>
+      <category id="8160" parentId="7932">Этикетка самоклеющаяся в рулонах</category>
+      <category id="8161" parentId="7932">Этикетка самоклеющаяся в листах</category>
+      <category id="8162">Гаджеты (Hi-Tech)</category>
+      <category id="8163" parentId="8162">Виртуальная реальность - 3D открытки</category>
+      <category id="8164" parentId="8162">Виртуальная реальность - игры</category>
+      <category id="8165" parentId="8162">Виртуальная реальность - очки</category>
+      <category id="8166" parentId="8162">Гироборды</category>
+      <category id="8167" parentId="8162">Гироскутеры</category>
+      <category id="8168" parentId="8162">Электросамокаты</category>
+      <category id="8169" parentId="8162">Моноколеса</category>
+      <category id="8170" parentId="1553">Лазерный принтер</category>
+      <category id="8171" parentId="1553">Матричный принтер</category>
+      <category id="8172" parentId="1553">Плоттер</category>
+      <category id="8173" parentId="8127">Подгузник для взрослых</category>
+      <category id="8174" parentId="8162">Квадрокоптеры</category>
+      <category id="8175" parentId="8162">Аксессуары к дронам</category>
+      <category id="8176" parentId="1404">Сетевые удлинители</category>
+      <category id="8177" parentId="1111">Подставка для интерактивной доски</category>
+      <category id="8178" parentId="8162">Вейпинг (электронные сигареты)</category>
+      <category id="8179" parentId="8162">Вейпинг - аксессуары</category>
+      <category id="8180" parentId="8162">Роботы и аксессуары</category>
+      <category id="8181" parentId="8162">Ручные стабилизаторы для видеосъемки</category>
+      <category id="8182" parentId="8162">Гексакоптеры</category>
+      <category id="8183" parentId="7791">Электроинструмент</category>
+      <category id="8184" parentId="8183">Бороздорезы</category>
+      <category id="8185" parentId="8183">Дрели и миксеры</category>
+      <category id="8186" parentId="8183">Измерительная техника</category>
+      <category id="8187" parentId="8183">Краскопульты</category>
+      <category id="8188" parentId="8183">Многофункциональные инструменты</category>
+      <category id="8189" parentId="8183">Наборы инструментов</category>
+      <category id="8190" parentId="8183">Отбойные молотки</category>
+      <category id="8191" parentId="8183">Перфораторы</category>
+      <category id="8192" parentId="8183">Пилы и плиткорезы</category>
+      <category id="8193" parentId="8183">Расходные материалы и принадлежности к инструментам</category>
+      <category id="8194" parentId="8183">Скобозабиватели</category>
+      <category id="8195" parentId="8183">Строительные фены</category>
+      <category id="8196" parentId="8183">Фрезеры</category>
+      <category id="8197" parentId="8183">Шлифовочные и полировальные машины</category>
+      <category id="8198" parentId="8183">Шуруповерты</category>
+      <category id="8199" parentId="8183">Электролобзики</category>
+      <category id="8200" parentId="8183">Электрорубанки</category>
+      <category id="8201" parentId="7729">Санки</category>
+      <category id="8202" parentId="7456">Новогодние украшения</category>
+      <category id="8205" parentId="7791">Расходные материалы</category>
+      <category id="8206" parentId="8205">Бур</category>
+      <category id="8207" parentId="8205">Диск</category>
+      <category id="8208" parentId="8205">Зубило</category>
+      <category id="8209" parentId="8205">Коронка</category>
+      <category id="8210" parentId="8205">Набор бит</category>
+      <category id="8211" parentId="8205">Полотно</category>
+      <category id="8212" parentId="8205">Сверло</category>
+      <category id="8213" parentId="8202">Гирлянда</category>
+      <category id="8214" parentId="8202">Декоративные украшения</category>
+      <category id="8215" parentId="8202">Искусственная сосна</category>
+      <category id="8216" parentId="8202">Искусственная елка</category>
+      <category id="8217" parentId="8202">Елочная игрушка</category>
+      <category id="8218" parentId="1290">Стекло защитное</category>
+      <category id="8219" parentId="8131">Детская зубная щетка</category>
+      <category id="8220" parentId="1553">3D-принтер</category>
+      <category id="8221" parentId="8178">Электронные сигареты</category>
+      <category id="8222" parentId="8178">Стартовый набор</category>
+      <category id="8223" parentId="8178">Мод</category>
+      <category id="8225" parentId="7983">Инструменты для уборки</category>
+      <category id="8226" parentId="8138">Колготки</category>
+      <category id="8227" parentId="8127">Приборы для маникюра и педикюра</category>
+      <category id="8228" parentId="1553">Мобильный фотопринтер</category>
+      <category id="8229" parentId="8138">Юбки</category>
+      <category id="8230" parentId="1547">Кресло игровое</category>
+      <category id="8231" parentId="8138">Джинсы</category>
+      <category id="8232" parentId="8138">Шорты</category>
+      <category id="8233" parentId="8138">Жилетка</category>
+      <category id="8235" parentId="8138">Кардиган</category>
+      <category id="8236" parentId="8183">Пылесос строительный</category>
+      <category id="8237" parentId="8162">Электробайки</category>
+      <category id="8238" parentId="8138">Блузки и рубашки</category>
+      <category id="8240" parentId="7313">Лампы инфракрасные</category>
+      <category id="8241" parentId="1547">Рычаг переключения передач</category>
+      <category id="8242" parentId="7276">Мультипечь</category>
+      <category id="8243" parentId="7302">Стайлер</category>
+      <category id="8244" parentId="7302">Машинка для завивки волос</category>
+      <category id="8245" parentId="1330">Мост для видеокарт</category>
+      <category id="8246" parentId="7276">Яйцеварка</category>
+      <category id="8247" parentId="7313">Осушитель воздуха</category>
+      <category id="8248" parentId="7313">Аксессуары сопутствующие</category>
+      <category id="8249" parentId="7716">Аэробика</category>
+      <category id="8251" parentId="1113">Аксессуары к медиаплееров</category>
+      <category id="8252" parentId="1553">Документ камера</category>
+      <category id="8253" parentId="1564">Элементы грозозащиты</category>
+      <category id="8254" parentId="7383">Камера-муляж</category>
+      <category id="8255" parentId="7276">Кулер для воды</category>
+      <category id="8256" parentId="7302">Электростимулятор</category>
+      <category id="8257" parentId="7302">Электрогрелка</category>
+      <category id="8258" parentId="7302">Электрическая простыня</category>
+      <category id="8259" parentId="7313">Часы</category>
+      <category id="8271" parentId="7442">Аксессуары сопутствующие</category>
+      <category id="8272" parentId="8044">Калька</category>
+      <category id="8273" parentId="8044">Ватман</category>
+      <category id="8274" parentId="8183">Лазерный нивелир</category>
+      <category id="8275" parentId="8183">Клеевые стержни</category>
+      <category id="8276" parentId="8183">Клеевой пистолет</category>
+      <category id="8277" parentId="8183">Влагомер</category>
+      <category id="8278" parentId="8138">Кофта</category>
+      <category id="8279" parentId="8138">Лосины</category>
+      <category id="8280" parentId="7731">Детский стул</category>
+      <category id="8281" parentId="7417">Отдых на воде</category>
+      <category id="8282" parentId="8281">Жилет для купания</category>
+      <category id="8283" parentId="8281">Басейн</category>
+      <category id="8284" parentId="7698">Добавки и аттрактанты</category>
+      <category id="8287" parentId="7451">Качели</category>
+      <category id="8288" parentId="1280">Видеорегистраторы</category>
+      <category id="8289" parentId="1280">Аксессуары к видеорегистраторам</category>
+      <category id="8290" parentId="8162">Анализатор почвы</category>
+      <category id="8291" parentId="1404">Аксессуары к источнику бесперебойного питания</category>
+      <category id="8292" parentId="7791">Сигнализация</category>
+      <category id="8293" parentId="8292">Аксессуары к сигнализациям</category>
+      <category id="8294" parentId="7932">POS-клавиатура</category>
+      <category id="8295" parentId="1515">Bluetooth трансмитер</category>
+      <category id="8296" parentId="8162">Умный дом</category>
+      <category id="8297" parentId="8296">Выключатель беспроводной</category>
+      <category id="8298" parentId="8296">Пульт управления беспроводными выключателями</category>
+      <category id="8299" parentId="8296">Регулятор беспроводной</category>
+      <category id="8300" parentId="8296">Кнопка управления беспроводными выключателями</category>
+      <category id="8301" parentId="7276">Мультипекарь</category>
+      <category id="8302" parentId="7791">Инструменты</category>
+      <category id="8303" parentId="8302">Напильник</category>
+      <category id="8304" parentId="8302">Ножницы по металлу</category>
+      <category id="8305" parentId="8302">Ножовка</category>
+      <category id="8306" parentId="8302">Плоскогубцы</category>
+      <category id="8307" parentId="8302">Рашпиль</category>
+      <category id="8308" parentId="8302">Уровень</category>
+      <category id="8309" parentId="8302">Рубанок</category>
+      <category id="8310" parentId="8302">Рулетка</category>
+      <category id="8311" parentId="8302">Стеклорез</category>
+      <category id="8312" parentId="8302">Степлер строительный</category>
+      <category id="8313" parentId="8302">Струбцина</category>
+      <category id="8314" parentId="8302">Гвоздодер</category>
+      <category id="8315" parentId="8302">Шило</category>
+      <category id="8316" parentId="8302">Ящик для инструментов</category>
+      <category id="8317" parentId="8302">Тиски</category>
+      <category id="8318" parentId="8302">Кусачки</category>
+      <category id="8319" parentId="8302">Ключ</category>
+      <category id="8320" parentId="8302">Молоток</category>
+      <category id="8321" parentId="8302">Клещи</category>
+      <category id="8322" parentId="8302">Кернер</category>
+      <category id="8323" parentId="8302">Заклепки</category>
+      <category id="8324" parentId="8138">Подштанники</category>
+      <category id="8325" parentId="8302">Домкрат</category>
+      <category id="8326" parentId="8302">Cъемник изоляции</category>
+      <category id="8327" parentId="8302">Кабелерез</category>
+      <category id="8328" parentId="8302">Киянка</category>
+      <category id="8329" parentId="8302">Заклепувальник</category>
+      <category id="8330" parentId="8302">Угольник</category>
+      <category id="8331" parentId="8302">Кувалда</category>
+      <category id="8332" parentId="8302">Лебедка</category>
+      <category id="8333" parentId="8302">Опрыскиватель</category>
+      <category id="8334" parentId="8302">Плиткорез</category>
+      <category id="8335" parentId="8302">Просекатель</category>
+      <category id="8336" parentId="8302">Стамеска</category>
+      <category id="8337" parentId="8302">Труборез</category>
+      <category id="8338" parentId="8302">Штангенциркуль</category>
+      <category id="8339" parentId="8296">Дверной звонок</category>
+      <category id="8340" parentId="8296">Система управления беспроводными устройствами</category>
+      <category id="8341" parentId="7302">Насадка для зубной щетки</category>
+      <category id="8342" parentId="8302">Колун</category>
+      <category id="8343" parentId="8138">Болеро</category>
+      <category id="8344" parentId="1286">Чехлы для внешних батарей</category>
+      <category id="8345" parentId="8138">Пижамы и халаты</category>
+      <category id="8346" parentId="8138">Футболка детская</category>
+      <category id="8347" parentId="8138">Майка</category>
+      <category id="8348" parentId="8205">Набор насадок</category>
+      <category id="8349" parentId="8162">Электроскутер</category>
+      <category id="8350" parentId="7383">Бесконтактная карта</category>
+      <category id="8351" parentId="7383">Приемопередатчик</category>
+      <category id="8352" parentId="7383">Считыватель бесконтактных карт</category>
+      <category id="8353" parentId="7731">Комод-пеленатор</category>
+      <category id="8354" parentId="7731">Матрас для детской кроватки</category>
+      <category id="8356" parentId="7715">Ланч-бокс</category>
+      <category id="8357" parentId="7932">Монетниця</category>
+      <category id="8358" parentId="7932">Крышка для денежного ящика</category>
+      <category id="8359" parentId="1397">Антивирусы</category>
+      <category id="8360" parentId="1397">Архиваторы</category>
+      <category id="8361" parentId="1397">Операционные системы</category>
+      <category id="8362" parentId="1397">Офисные приложения</category>
+      <category id="8363" parentId="1397">ПО для мультимедиа</category>
+      <category id="8364" parentId="1397">ПО для работы с текстом</category>
+      <category id="8365" parentId="1397">ПО для сервера</category>
+      <category id="8366" parentId="7812">Компьютерные игры</category>
+      <category id="8367" parentId="7812">Операционные системы</category>
+      <category id="8368" parentId="7812">Офисные приложения</category>
+      <category id="8369" parentId="7812">ПО для мультимедиа</category>
+      <category id="8370" parentId="7812">ПО для работы с текстом</category>
+      <category id="8371" parentId="7812">ПО для сервера</category>
+      <category id="8372" parentId="7812">Другое ПО</category>
+      <category id="8373" parentId="8175">Аккумулятор для дрона</category>
+      <category id="8374" parentId="8175">Зарядное устройство для дрона</category>
+      <category id="8375" parentId="8175">Смарт-чехол от солнца</category>
+      <category id="8376" parentId="8175">Пропеллер для дрона</category>
+      <category id="8377" parentId="8175">Кейс для стедикам</category>
+      <category id="8379" parentId="8175">Корпус для квадрокоптера</category>
+      <category id="8380" parentId="8175">Рюкзак для дрона</category>
+      <category id="8381" parentId="8175">Модуль для дрона</category>
+      <category id="8382" parentId="8175">Ремень для дрона</category>
+      <category id="8383" parentId="8175">Подвес для дрона</category>
+      <category id="8385" parentId="8175">Светофильтр для дрона</category>
+      <category id="8386" parentId="8302">Гайковерт</category>
+      <category id="8387" parentId="8302">Лом</category>
+      <category id="8388" parentId="7715">Дорожная сумка</category>
+      <category id="8389" parentId="7715">Чемодан</category>
+      <category id="8390" parentId="8183">Станок</category>
+      <category id="8391" parentId="8183">Триммер садовый</category>
+      <category id="8392" parentId="8205">Лезвие</category>
+      <category id="8393" parentId="8302">Магнитный захват</category>
+      <category id="8394" parentId="8302">Нож монтажный</category>
+      <category id="8395" parentId="1397">ПО для 3D (САПР)</category>
+      <category id="8396" parentId="1397">ПО для работы с WEB</category>
+      <category id="8397" parentId="1397">ПО для навигации</category>
+      <category id="8398" parentId="1397">ПО для СКБД</category>
+      <category id="8399" parentId="1397">Системная утилита</category>
+      <category id="8400" parentId="1211">Фрейм-переходник</category>
+      <category id="8401" parentId="7791">Электрические лампочки</category>
+      <category id="8402" parentId="7731">Крыжма</category>
+      <category id="8403" parentId="8138">Кепка</category>
+      <category id="8404" parentId="8138">Панама</category>
+      <category id="8405" parentId="8138">Повязка</category>
+      <category id="8406" parentId="7791">Кабельная продукция</category>
+      <category id="8407" parentId="8406">Кабель телевизионный</category>
+      <category id="8408" parentId="8406">Кабель силовой</category>
+      <category id="8409" parentId="8406">Кабель телефонный</category>
+      <category id="8410" parentId="7815">Светодиодная лента</category>
+      <category id="8411" parentId="7715">Набор чемоданов</category>
+      <category id="8412" parentId="8296">Поисковая система</category>
+      <category id="8413" parentId="8162">Мультикоптер</category>
+      <category id="8414" parentId="1560">RFID считыватель</category>
+      <category id="8415" parentId="1560">RFID антенна</category>
+      <category id="8416" parentId="8183">Воздуходувка</category>
+      <category id="8417" parentId="8183">Сверлильный станок</category>
+      <category id="8418" parentId="8183">Экстрактор</category>
+      <category id="8419" parentId="8183">Краскопульт</category>
+      <category id="8420" parentId="8183">Паяльник электрический</category>
+      <category id="8421" parentId="8183">Гвоздезабиватель</category>
+      <category id="8422" parentId="8302">Стусло</category>
+      <category id="8423" parentId="8302">Бокорезы</category>
+      <category id="8424" parentId="8302">Набор надфилей</category>
+      <category id="8425" parentId="8302">Топор</category>
+      <category id="8426" parentId="8302">Щипцы</category>
+      <category id="8427" parentId="8302">Трубогиб</category>
+      <category id="8429" parentId="8302">Пистолет для монтажной пены</category>
+      <category id="8430" parentId="8302">Пистолет для герметиков</category>
+      <category id="8431" parentId="8302">Кусторез</category>
+      <category id="8434" parentId="8302">Микрометр</category>
+      <category id="8435" parentId="8302">Лопата</category>
+      <category id="8436" parentId="8302">Сумка для мангала</category>
+      <category id="8437" parentId="7791">Инвентарь</category>
+      <category id="8438" parentId="8437">Тележка для инструмента</category>
+      <category id="8439" parentId="8437">Тележка грузовая</category>
+      <category id="8440" parentId="8138">Пиджак</category>
+      <category id="8441" parentId="7417">Дача, сад, огород</category>
+      <category id="8442" parentId="8441">Насосы и помпы</category>
+      <category id="8443" parentId="1382">Аксессуары для кабелей</category>
+      <category id="8444" parentId="7302">Термобигуди</category>
+      <category id="8446" parentId="7948">Косметика для ногтей</category>
+      <category id="8447" parentId="7791">Универсальные мойки</category>
+      <category id="8448" parentId="1111">Видеотерминалы</category>
+      <category id="8449" parentId="7313">Оверлок</category>
+      <category id="8450" parentId="7726">Игрушки-ночники</category>
+      <category id="8451" parentId="7839">Видеотерминалы</category>
+      <category id="8453" parentId="7729">Роликовые коньки</category>
+      <category id="8454" parentId="8086">Офисная доска</category>
+      <category id="8455" parentId="8205">Нож сменный</category>
+      <category id="8456" parentId="7728">Накладка на унитаз</category>
+      <category id="8457" parentId="7731">Подушка на сиденье стула</category>
+      <category id="8458" parentId="7731">Пеленальная доска</category>
+      <category id="8459" parentId="7731">Рюкзак-переноска</category>
+      <category id="8460" parentId="8296">Электромеханический замок</category>
+      <category id="8461" parentId="8296">Кнопка выхода</category>
+      <category id="8463" parentId="7383">Комплект СКУД</category>
+      <category id="8464" parentId="8441">Садовая мебель</category>
+      <category id="8465" parentId="7815">Стекляные полки</category>
+      <category id="8466" parentId="7815">Металические полки</category>
+      <category id="8467" parentId="7815">Тумба</category>
+      <category id="8469" parentId="7815">Кронштейн</category>
+      <category id="8470" parentId="7815">Стійка презентаційна для плазм та ЖК</category>
+      <category id="8471" parentId="7276">Капучинатор</category>
+      <category id="8472" parentId="7698">Прикормки</category>
+      <category id="8473" parentId="7715">Водонепроницаемая одежда</category>
+      <category id="8474" parentId="7715">Аксессуары для активного отдыха</category>
+      <category id="8475" parentId="7264">4G-маршрутизаторы</category>
+      <category id="8476" parentId="7442">Сушарки для рук</category>
+      <category id="8477" parentId="7699">Сноуборды</category>
+      <category id="8478" parentId="7699">Горные лыжи</category>
+      <category id="8479" parentId="7699">Аксессуары для горных лыж</category>
+      <category id="8480" parentId="7699">Аксессуары для сноубордов</category>
+      <category id="8481" parentId="7554">Тепловая завеса</category>
+      <category id="8482" parentId="8183">Зарядное устройство для аккумуляторов инструмента</category>
+      <category id="8483" parentId="8183">Косильная леска</category>
+      <category id="8484" parentId="8183">Бензорез</category>
+      <category id="8485" parentId="8302">Гвозди</category>
+      <category id="8486" parentId="8302">Держатель инструмента</category>
+      <category id="8487" parentId="8302">Сумка для инструмента</category>
+      <category id="8488" parentId="7451">Пуф</category>
+      <category id="8490" parentId="1358">Камера моментальной печати</category>
+      <category id="8491" parentId="7451">Мебель для дома и кухни</category>
+      <category id="8492" parentId="8491">Барный стул</category>
+      <category id="8493" parentId="8491">Кухонный стул</category>
+      <category id="8494" parentId="7451">Офисная мебель</category>
+      <category id="8495" parentId="7451">Сантехника</category>
+      <category id="8496" parentId="8495">Кухонные мойки</category>
+      <category id="8497" parentId="8183">Гравер</category>
+      <category id="8498" parentId="8183">Ножницы по металлу электрические</category>
+      <category id="8499" parentId="7313">Светильники точечные</category>
+      <category id="8501" parentId="7313">Лампы дневного света</category>
+      <category id="8502" parentId="8296">Умная лампочка</category>
+      <category id="8503" parentId="7313">Умные лампочки</category>
+      <category id="8504" parentId="7264">Мобильный Wi-Fi роутер</category>
+      <category id="8505" parentId="1358">Защита линзы</category>
+      <category id="8506" parentId="7313">Лампочки</category>
+      <category id="8507" parentId="7948">Ортопедические стельки</category>
+      <category id="8508" parentId="8049">Папка для черчения</category>
+      <category id="8509" parentId="7729">Аксессуары к санкам</category>
+      <category id="8511" parentId="1547">Трекпад</category>
+      <category id="8512" parentId="7983">Тарелка одноразовая</category>
+      <category id="8513" parentId="7276">Охладитель пива</category>
+      <category id="8514" parentId="8183">Степлеры электрические</category>
+      <category id="8515" parentId="1111">Пульты управления</category>
+      <category id="8516" parentId="1233">Матриця до ноутбука</category>
+      <category id="8517" parentId="8068">Набор маркеров</category>
+      <category id="8518" parentId="7983">Стакан одноразовый</category>
+      <category id="8519" parentId="8441">Дополнительное оборудование для насосов</category>
+      <category id="8520" parentId="8162">Ремешки к смарт часам и браслетам</category>
+      <category id="8521" parentId="8068">Ручка перьевая</category>
+      <category id="8522" parentId="8104">Подарочный набор</category>
+      <category id="8524" parentId="7264">Мобильный модем</category>
+      <category id="8525" parentId="1463">Дополнительное серверное оборудование</category>
+      <category id="8526" parentId="7302">Термометры</category>
+      <category id="8527" parentId="1547">Перо</category>
+      <category id="8528" parentId="7729">Качели</category>
+      <category id="8529" parentId="8183">Насадка угловая</category>
+      <category id="8530" parentId="8494">Диван офисный</category>
+      <category id="8533" parentId="8494">Комплектующие для мебели</category>
+      <category id="8534" parentId="1397">Карточки пополнения</category>
+      <category id="8535" parentId="7812">Карточки пополнения</category>
+      <category id="8536" parentId="7704">Оптический прицел</category>
+      <category id="8543" parentId="8281">Круг надувной</category>
+      <category id="8544" parentId="8281">Надувная лодка</category>
+      <category id="8545" parentId="8281">Надувные нарукавники</category>
+      <category id="8546" parentId="7729">Рюкзак школьный</category>
+      <category id="8547" parentId="7715">Металлоискатель</category>
+      <category id="8548" parentId="8441">Пылесос садовый</category>
+      <category id="8549" parentId="1111">Стол проекционный</category>
+      <category id="8550" parentId="8183">Оптический нивелир</category>
+      <category id="8555" parentId="1358">Фотоальбом</category>
+      <category id="8557" parentId="8558">Посуда для приготовления чая и кофе</category>
+      <category id="8558">Посуда</category>
+      <category id="8559" parentId="8558">Кастрюли</category>
+      <category id="8560" parentId="8558">Наборы посуды</category>
+      <category id="8561" parentId="8558">Ковши</category>
+      <category id="8562" parentId="8558">Сковородки</category>
+      <category id="8563" parentId="8558">Крышки для посуды</category>
+      <category id="8564" parentId="8558">Пищевые контейнеры</category>
+      <category id="8565" parentId="8558">Формы для выпечки и запекания</category>
+      <category id="8566" parentId="8558">Кухонные ножи, ножницы и наборы</category>
+      <category id="8567" parentId="8558">Сотейники</category>
+      <category id="8568" parentId="1181">Запчасти для ноутбуков</category>
+      <category id="8569" parentId="8568">Шлейфы</category>
+      <category id="8570" parentId="8568">Матрицы/дисплеи</category>
+      <category id="8571" parentId="8568">Кабели/разъемы</category>
+      <category id="8572" parentId="8568">Клавиатуры</category>
+      <category id="8573" parentId="8568">Вентиляторы/системы охлаждения</category>
+      <category id="8574" parentId="8437">Лестница</category>
+      <category id="8575" parentId="8302">Компрессоры</category>
+      <category id="8576" parentId="8558">Гусятницы</category>
+      <category id="8577" parentId="8302">Увеличительное стекло</category>
+      <category id="8578" parentId="8302">Генераторы</category>
+      <category id="8579" parentId="8582">Автоэлектроника</category>
+      <category id="8580" parentId="8582">Автокосметика</category>
+      <category id="8581" parentId="7727">Детская косметика</category>
+      <category id="8582">Автотовары</category>
+      <category id="8583" parentId="7715">Сумки-тележки</category>
+      <category id="8584" parentId="1397">Карты активации</category>
+      <category id="8585" parentId="8558">Емкости для сыпучих продуктов</category>
+      <category id="8586" parentId="8558">Молотки для мяса</category>
+      <category id="8587" parentId="8558">Наборы для специй</category>
+      <category id="8588" parentId="8558">Венчики</category>
+      <category id="8589" parentId="7442">Отопительные котлы</category>
+      <category id="8590" parentId="8558">Кухонная утварь</category>
+      <category id="8591" parentId="8582">Автооборудование</category>
+      <category id="8592" parentId="8162">GPS трекер</category>
+      <category id="8595" parentId="7948">Дезинфекция и средства защиты</category>
+      <category id="8596" parentId="8595">Антисептики</category>
+      <category id="8597" parentId="8595">Маски и респираторы</category>
+      <category id="8598" parentId="7791">Колодки для удлинителей</category>
+      <category id="8599" parentId="1554">Другие расходные материалы</category>
+      <category id="8600" parentId="8617">Магнитные валы  и оболочки</category>
+      <category id="8601" parentId="8624">Валы для печати</category>
+      <category id="8602" parentId="8617">Втулки магнитного вала</category>
+      <category id="8603" parentId="8624">Другие запчасти</category>
+      <category id="8604" parentId="1554">Расходные для 3D-печати</category>
+      <category id="8605" parentId="8617">Корпус картриджа</category>
+      <category id="8606" parentId="8624">Втулки и подшипники</category>
+      <category id="8607" parentId="8617">Смазка для контактов магнитного вала</category>
+      <category id="8608" parentId="1554">Контейнеры отходов</category>
+      <category id="8609" parentId="8624">Узел переноса изображения</category>
+      <category id="8610" parentId="8624">Ролик захвата/подачи</category>
+      <category id="8611" parentId="8617">Другие запчасти для картриджей</category>
+      <category id="8612" parentId="8617">Чипы для картриджей</category>
+      <category id="8613" parentId="8624">Инструменты и оборудование</category>
+      <category id="8614" parentId="1554">Блок фотобарабана (Драм)</category>
+      <category id="8615" parentId="8624">Тормозная площадка</category>
+      <category id="8616" parentId="8624">Шестерни и механика</category>
+      <category id="8617" parentId="1378">Запчасти для картриджей</category>
+      <category id="8618" parentId="8183">Сварочный аппарат</category>
+      <category id="8619" parentId="8617">Валы первичной зарядки</category>
+      <category id="8620" parentId="8624">Сервисные материалы</category>
+      <category id="8621" parentId="8624">Запчасти ОЕМ</category>
+      <category id="8622" parentId="8617">Лезвие очистки/фотобарабана</category>
+      <category id="8623" parentId="8183">Точильный станок</category>
+      <category id="8624" parentId="1378">Запчасти к оргтехнике</category>
+      <category id="8625" parentId="8624">Термопленки</category>
+      <category id="8626" parentId="8624">Печатающие головки</category>
+      <category id="8627" parentId="8624">Термисторы, термоэлементы, лампы</category>
+      <category id="8628" parentId="8617">Фотобарабаны/фоторецепторы</category>
+      <category id="8629" parentId="8624">Шлейфы</category>
+      <category id="8630" parentId="8624">Узел термозакрепления</category>
+      <category id="8631" parentId="8617">Лезвия дозирования</category>
+      <category id="8632" parentId="8568">Петли и корпусные части ноутбука</category>
+      <category id="8634" parentId="7520">Аксессуары к сушильным машинам</category>
+      <category id="8635" parentId="7317">Стиральные машины</category>
+      <category id="8636" parentId="7450">Холодильники</category>
+      <category id="8637" parentId="7317">Аксессуары к стиральным машинам</category>
+      <category id="8638" parentId="7450">Аксессуары к холодильникам</category>
+      <category id="8639" parentId="7520">Сушильные машины</category>
+      <category id="8640" parentId="7655">Плиты</category>
+      <category id="8641" parentId="7655">Аксессуары для плит</category>
+      <category id="8642" parentId="7815">Карточка активации</category>
+      <category id="8643" parentId="8617">Упаковочные материалы для картриджей</category>
+      <category id="8644" parentId="7449">Посудомойные машины</category>
+      <category id="8645" parentId="7449">Аксессуары к посудомойным машинам</category>
+      <category id="8646" parentId="7451">Теплый пол</category>
+      <category id="8647" parentId="8121">Детское мыло</category>
+      <category id="8648" parentId="1397">Карты активации ТВ</category>
+      <category id="8649" parentId="8183">Газонокосилка</category>
+      <category id="8650" parentId="8183">Аксессуары для електроинструмента</category>
+      <category id="8651" parentId="8183">Садовый измельчитель</category>
+      <category id="8652" parentId="8183">Секатор</category>
+      <category id="8653" parentId="1397">ПО для мобильных устройств</category>
+      <category id="8654" parentId="1404">Зарядные устройства для АКБ</category>
+      <category id="8656" parentId="8660">Дровоколы</category>
+      <category id="8657" parentId="8660">Компостеры</category>
+      <category id="8658" parentId="8660">Оборудование для полива</category>
+      <category id="8659" parentId="8660">Ножницы садовые, секатори, сучкорези</category>
+      <category id="8660" parentId="7791">Садовая техника и оборудование</category>
+      <category id="8661" parentId="8660">Косильные головки и ножи</category>
+      <category id="8662" parentId="8660">Культиваторы и мотоблоки</category>
+      <category id="8663" parentId="8660">Аератори</category>
+      <category id="8664" parentId="8138">Трусы</category>
+      <category id="8666" parentId="8494">Письменные столы</category>
+      <category id="8667" parentId="1330">Накопитель FDD</category>
+      <category id="8668" parentId="1487">Накопитель FDD</category>
+      <category id="8669" parentId="7442">Полотенцесушитель</category>
+      <category id="8670" parentId="8558">Столовые приборы</category>
+      <category id="8671" parentId="8296">Доводчики двери</category>
+      <category id="8672" parentId="7383">Сканеры биометрические</category>
+      <category id="8673" parentId="8582">Автомобильные съемники</category>
+      <category id="8674" parentId="8302">Гидравлические столы</category>
+      <category id="8675" parentId="8183">Плазморезы</category>
+      <category id="8676" parentId="8302">Кельмы</category>
+      <category id="8677" parentId="8302">Штабелеры</category>
+      <category id="8678" parentId="8302">Шпатели</category>
+      <category id="8679" parentId="7791">Низковольтное оборудование</category>
+      <category id="8680" parentId="8183">Тележки гидравлические</category>
+      <category id="8681" parentId="8205">Щетки для электроинструмента</category>
+      <category id="8682" parentId="8558">Кухонные ножницы</category>
+      <category id="8683" parentId="7791">Розетки и выключатели</category>
+      <category id="8684" parentId="8558">Подставки для ножей</category>
+      <category id="8685" parentId="8302">Ножницы инструментальные</category>
+      <category id="8686" parentId="7791">Шкафы, корпуса, щитки</category>
+      <category id="8687" parentId="8296">Электромагнитный замок</category>
+      <category id="8688">Альтернативная энергетика</category>
+      <category id="8689" parentId="8688">Солнечные электростанции</category>
+      <category id="8690" parentId="8688">Солнечные батареи (панели)</category>
+      <category id="8691" parentId="8688">Солнечные инверторы</category>
+      <category id="8692" parentId="8688">Комплектующие для СЭС</category>
+      <category id="8693" parentId="7704">Стартовые (сигнальные) пистолеты</category>
+      <category id="8694" parentId="7417">Оптические приборы</category>
+      <category id="8695" parentId="7417">Бокс и единоборства</category>
+      <category id="8696" parentId="8695">Перчатки для единоборств</category>
+      <category id="8697" parentId="8695">Защитная экипировка</category>
+      <category id="8698" parentId="8695">Лапы, макивары</category>
+      <category id="8699" parentId="8695">Боксерские мешки и груши</category>
+      <category id="8700" parentId="8494">Компьютерный стол</category>
+      <category id="8701" parentId="8162">GPS трекер</category>
+      <category id="8702" parentId="8205">Наждачная бумага</category>
+      <category id="8703" parentId="8205">Круг отрезной</category>
+      <category id="8704" parentId="8205">Припой для пайки</category>
+      <category id="8705" parentId="8162">Очки для компьютера</category>
+      <category id="8706" parentId="1397">Аппаратный ключ безопасности (токен)</category>
+      <category id="8707" parentId="8582">Автолампы</category>
+      <category id="8708" parentId="7791">Вытяжные вентиляторы</category>
+      <category id="8709" parentId="7948">Ультрафиолетовые стерилизаторы</category>
+      <category id="8710" parentId="8558">Штопоры</category>
+      <category id="8711" parentId="7313">Сушилки для обуви</category>
+      <category id="8712" parentId="8660">Снегоуборщики</category>
+      <category id="8713" parentId="8558">Кухонные термометры</category>
+      <category id="8715" parentId="7383">Токены</category>
+      <category id="8716" parentId="7383">Бесконтактные карт-ридеры</category>
+      <category id="8717" parentId="7383">Контактные карт-ридеры</category>
+      <category id="8718" parentId="8660">Тачки</category>
+      <category id="8719" parentId="8302">Головки торцевые</category>
+      <category id="8720" parentId="8582">Масла и автохимия</category>
+      <category id="8721" parentId="1290">Наборы для блогера</category>
+      <category id="8722" parentId="8302">Дождеватель</category>
+      <category id="8723" parentId="8302">Головки магнитные</category>
+      <category id="8724" parentId="8296">Кронштейны для замков</category>
+      <category id="8725" parentId="8100">Самонаборной штамп</category>
+      <category id="8726" parentId="7456">Кровать</category>
+      <category id="8728" parentId="7456">Шафа</category>
+      <category id="8729" parentId="8582">Аккумуляторы автомобильные</category>
+      <category id="8730" parentId="1330">Системы водного охлаждения</category>
+      <category id="8731" parentId="7451">Комплект геймерской мебели</category>
+      <category id="8732" parentId="1330">Компоненты СВО</category>
+      <category id="8733" parentId="8736">Домашний текстиль</category>
+      <category id="8734" parentId="7451">Меблі</category>
+      <category id="8735" parentId="8582">Автоаксессуары</category>
+      <category id="8736">Товары для дома</category>
+      <category id="8737" parentId="8582">Стеклоочиститель</category>
+      <category id="8738" parentId="7791">Cервисное оборудование</category>
+      <category id="8739" parentId="8018">Книга алфавитная</category>
+      <category id="8740" parentId="8018">Еженедельник</category>
+      <category id="8741" parentId="8582">Свічки автомобільні</category>
+      <category id="8742" parentId="8582">Фільтри автомобільні</category>
+      <category id="8743" parentId="1330">Аксессуары к корпусам</category>
+      <category id="8744" parentId="1397">ПО для охранных систем</category>
+      <category id="8745" parentId="8302">Сварочные маски</category>
+      <category id="8746" parentId="8302">Масленки для смазки</category>
+      <category id="8747" parentId="7383">ПО для охранных систем</category>
+      <category id="8748" parentId="8660">Вилы</category>
+      <category id="8749">Домашний текстиль</category>
+      <category id="8750" parentId="8205">Чашки шлифовальные</category>
+      <category id="8751" parentId="8749">Постельное белье</category>
+      <category id="8752" parentId="8749">Одеяла</category>
+      <category id="8753" parentId="8749">Подушки</category>
+      <category id="8754" parentId="8302">Трещотки</category>
+      <category id="8755" parentId="8749">Покрывала</category>
+      <category id="8756" parentId="8302">Болторезы</category>
+      <category id="8757" parentId="7716">Батуты</category>
+      <category id="8758" parentId="7696">Аксессуары к ножам и мультитулам</category>
+      <category id="8759" parentId="7690">Электрические велонаборы</category>
+      <category id="8760" parentId="1547">Педали игровые</category>
+      <category id="8761" parentId="8749">Наматрацник</category>
+      <category id="8762" parentId="8749">Матрац</category>
+      <category id="8763" parentId="8624">Узлы сканирования</category>
+      <category id="8764">Товары для здоровья</category>
+      <category id="8765" parentId="8764">БАД (Биологически активные добавки)</category>
+      <category id="8766" parentId="8764">Медицинский текстиль</category>
+      <category id="8768" parentId="8086">Школьная доска</category>
+      <category id="8769" parentId="7932">Промышленные компьютеры</category>
+      <category id="8770" parentId="8302">Измирительные инструменты</category>
+      <category id="8771" parentId="8494">Защитные коврики под кресла</category>
+      <category id="8772" parentId="8558">Масленки кухонные</category>
+      <category id="8773" parentId="8100">Подушка штемпельная</category>
+      <category id="8774" parentId="8582">Тормозная система</category>
+      <category id="8775" parentId="8437">Тележки с инструментом</category>
+      <category id="8776" parentId="8779">Тоники для лица</category>
+      <category id="8777" parentId="8121">Молочко для тела</category>
+      <category id="8778" parentId="8779">Лосьоны для лица</category>
+      <category id="8779" parentId="7948">Косметика по уходу за лицом</category>
+      <category id="8780" parentId="7948">Парфюмерия</category>
+      <category id="8781" parentId="8121">Антиперспиранты</category>
+      <category id="8782" parentId="8121">Масло для тела</category>
+      <category id="8783" parentId="8104">Пена для волос</category>
+      <category id="8784" parentId="8780">Парфюмированная вода</category>
+      <category id="8785" parentId="8121">Скрабы для тела</category>
+      <category id="8786" parentId="8104">Масло для волос</category>
+      <category id="8787" parentId="8780">Туалетная вода</category>
+      <category id="8788" parentId="8104">Глина для волос</category>
+      <category id="8789" parentId="8780">Одеколоны</category>
+      <category id="8790" parentId="7948">Контрацептивы и лубриканты</category>
+      <category id="8791" parentId="8104">Паста для волос</category>
+      <category id="8792" parentId="8779">Кремы для лица</category>
+      <category id="8793" parentId="8121">Кремы для рук</category>
+      <category id="8794" parentId="8104">Сухие шампуни</category>
+      <category id="8795" parentId="8779">Гигиенические помады</category>
+      <category id="8796" parentId="8779">Скрабы для лица</category>
+      <category id="8797" parentId="8790">Презервативы</category>
+      <category id="8798" parentId="8121">Кремы для ног</category>
+      <category id="8799" parentId="8779">Гели для умывания</category>
+      <category id="8800" parentId="8790">Интимные гели-смазки</category>
+      <category id="8801" parentId="8121">Кремы для тела</category>
+      <category id="8802" parentId="8018">Записные книги</category>
+      <category id="8803" parentId="8582">Техпомощь</category>
+      <category id="8804" parentId="7442">Льдогенератор</category>
+      <category id="8805" parentId="1404">Батареи LiFePo4</category>
+      <category id="8806" parentId="7969">Средства для прочистки труб</category>
+      <category id="8807" parentId="7969">Очистители стиральных машин</category>
+      <category id="8808" parentId="7969">Очистители для холодильников</category>
+      <category id="8809" parentId="7969">Гели для посудомоек</category>
+      <category id="8810" parentId="7969">Средства для чистки духовок</category>
+      <category id="8811" parentId="7969">Очистители стеклокерамики</category>
+      <category id="8812" parentId="7969">Гели для чистки кухни</category>
+      <category id="8813" parentId="7969">Спреи для чистки кухни</category>
+      <category id="8814" parentId="7969">Порошки для посудомоек</category>
+      <category id="8815" parentId="7969">Ополаскиватели для посуды</category>
+      <category id="8816" parentId="7969">Кремы для чистки кухни</category>
+      <category id="8817" parentId="7969">Соль для посудомоек</category>
+      <category id="8818" parentId="7969">Средства для чистки ковров</category>
+      <category id="8819" parentId="7969">Средства для мебели</category>
+      <category id="8820" parentId="7969">Пена для чистки ванн</category>
+      <category id="8821" parentId="7969">Очистители для посудомоек</category>
+      <category id="8822" parentId="7969">Порошки для чистки ванн</category>
+      <category id="8823" parentId="7969">Средства для депиляции</category>
+      <category id="8824" parentId="7983">Пакеты для уборки за животными</category>
+      <category id="8825" parentId="7969">Средства защиты от насекомых</category>
+      <category id="8826" parentId="8127">Гель для интимной гигиены</category>
+      <category id="8827" parentId="8131">Ершики для зубов</category>
+      <category id="8828" parentId="8582">Коврики в салон</category>
+      <category id="8829">Товары для школы</category>
+      <category id="8830" parentId="8829">Парты и комплекты</category>
+      <category id="8831" parentId="8829">Альбомы для рисования</category>
+      <category id="8832" parentId="8829">Сумки для обуви</category>
+      <category id="8833" parentId="8829">Учебные наборы</category>
+      <category id="8834" parentId="8829">Детские кресла и стулья</category>
+      <category id="8835" parentId="8829">Пеналы</category>
+      <category id="8836" parentId="8829">Рюкзаки детские</category>
+      <category id="8837" parentId="8829">Тетради</category>
+      <category id="8838" parentId="8829">Портфели</category>
+      <category id="8839" parentId="8829">Школьные наборы</category>
+      <category id="8840" parentId="8779">Мицеллярная вода</category>
+      <category id="8841" parentId="8127">Салфетки для интимной гигиены</category>
+      <category id="8842" parentId="8104">Сыворотка для волос</category>
+      <category id="8843" parentId="7995">Фумигаторы</category>
+      <category id="8844" parentId="8121">Бомбочки для ванны</category>
+      <category id="8845" parentId="7948">Наборы косметики</category>
+      <category id="8846" parentId="8049">Архивная папка</category>
+      <category id="8847" parentId="7276">Машины для приготовления детской смеси</category>
+      <category id="8848" parentId="7728">Носовой аспиратор</category>
+      <category id="8849" parentId="8764">Небулайзеры</category>
+      <category id="8850" parentId="7442">Стальные радиаторы</category>
+      <category id="8851" parentId="8582">Ремни ГРМ</category>
+      <category id="8852" parentId="8131">Стоматологические капы</category>
+      <category id="8853" parentId="8131">Детская зубная паста</category>
+      <category id="8857" parentId="8131">Гели для полости рта</category>
+      <category id="8858" parentId="8121">Эфирное масло</category>
+      <category id="8859" parentId="8131">Спрей для полости рта</category>
+      <category id="8860" parentId="8131">Очистители языка</category>
+      <category id="8861" parentId="8131">Зубочистки</category>
+      <category id="8862" parentId="7983">Термопакеты</category>
+      <category id="8863" parentId="8595">Медицинские перчатки</category>
+      <category id="8864" parentId="8749">Полотенце</category>
+      <category id="8865" parentId="8749">Простынь</category>
+      <category id="8866" parentId="8749">Наволочки</category>
+      <category id="8867" parentId="8749">Пододеяльники</category>
+      <category id="8868" parentId="8886">Колготы компрессионные</category>
+      <category id="8869" parentId="8121">Губки для купания</category>
+      <category id="8870" parentId="8894">Бандажи</category>
+      <category id="8871" parentId="7948">Уход за обувью</category>
+      <category id="8872" parentId="8894">Корсеты</category>
+      <category id="8873" parentId="8131">Футляры для зубных щеток</category>
+      <category id="8874" parentId="8779">Маски для лица</category>
+      <category id="8875" parentId="8764">Все для дезинфекции</category>
+      <category id="8876" parentId="8894">Медицинские шины</category>
+      <category id="8877" parentId="8871">Кремы для обуви</category>
+      <category id="8878" parentId="7983">Контейнеры для мусора</category>
+      <category id="8879" parentId="7970">Кремы для бритья</category>
+      <category id="8880" parentId="7983">Влажные салфетки</category>
+      <category id="8881" parentId="8871">Спреи для обуви</category>
+      <category id="8882" parentId="8894">Медицинская обувь</category>
+      <category id="8883" parentId="7970">Футляры для бритвы</category>
+      <category id="8884" parentId="8871">Воск для обуви</category>
+      <category id="8885" parentId="8875">Ванны для дезинфекции</category>
+      <category id="8886" parentId="8764">Компрессионные изделия</category>
+      <category id="8887" parentId="8875">Дозаторы для дезинфекторов</category>
+      <category id="8888" parentId="8886">Чулки компрессионные</category>
+      <category id="8889" parentId="8875">Дезинфекторы инструментов</category>
+      <category id="8890" parentId="8875">Дезинфекторы поверхностей</category>
+      <category id="8892" parentId="8886">Гольфы компрессионные</category>
+      <category id="8893" parentId="8131">Восстановление пломб</category>
+      <category id="8894" parentId="8764">Бандажи и фиксаторы</category>
+      <category id="8895" parentId="7442">Морозильные лари</category>
+      <category id="8896" parentId="8829">Пластилин</category>
+      <category id="8897" parentId="7731">Товары для безопасности детей</category>
+      <category id="8898" parentId="7983">Дозаторы для жидкого мыла</category>
+      <category id="8899" parentId="7983">Прищепки для белья</category>
+      <category id="8900" parentId="7983">Плечики для одежды</category>
+      <category id="8901" parentId="7983">Этажерки</category>
+      <category id="8902" parentId="7983">Скатерти одноразовые</category>
+      <category id="8903" parentId="7983">Контейнеры для хранения</category>
+      <category id="8904" parentId="7727">Картины по номерам</category>
+      <category id="8905" parentId="7983">Корзины для хранения</category>
+      <category id="8906" parentId="7983">Корзины для белья</category>
+      <category id="8907" parentId="7983">Гладильные доски</category>
+      <category id="8908" parentId="7983">Ершики для унитаза</category>
+      <category id="8909" parentId="8829">Краски для рисования</category>
+      <category id="8910" parentId="8779">Масло для лица</category>
+      <category id="8911" parentId="7983">Наборы для ванной комнаты</category>
+      <category id="8912" parentId="7983">Полки для ванной комнаты</category>
+      <category id="8913" parentId="7983">Сушилки для белья</category>
+      <category id="8914" parentId="8660">Соединительные муфты для шлангов</category>
+      <category id="8915" parentId="8302">Держатели насадок</category>
+      <category id="8916" parentId="7932">Смарт-картаы</category>
+      <category id="8917" parentId="8437">Стойки для дрели</category>
+      <category id="8918" parentId="8205">Фильтры для строительных пылесосов</category>
+      <category id="8919" parentId="8302">Промывочные пистолеты</category>
+      <category id="8920" parentId="8302">Магнит для сварки</category>
+      <category id="8921" parentId="8660">Мотопомпы</category>
+      <category id="8922" parentId="8302">Добойники</category>
+      <category id="8923" parentId="8302">Пробойники</category>
+      <category id="8924" parentId="7791">Микрокиоски</category>
+      <category id="8925" parentId="8932">Патч-корды, адаптеры, пигтейлы</category>
+      <category id="8926" parentId="8205">Воротки для метчиков</category>
+      <category id="8927" parentId="8183">Ленточные пилы</category>
+      <category id="8928" parentId="8660">Шланги высокого давления</category>
+      <category id="8929" parentId="8302">Телескопические опоры</category>
+      <category id="8930" parentId="8660">Пневматические шланги</category>
+      <category id="8931" parentId="8302">Органайзеры для проводов</category>
+      <category id="8932" parentId="1392">Пассивные компоненты оптических сетей</category>
+      <category id="8933" parentId="7932">Корпуса к промышленных ПК</category>
+      <category id="8934" parentId="8183">Направляющая шина</category>
+      <category id="8935" parentId="8660">Дренажные шланги</category>
+      <category id="8936" parentId="8660">Грабли</category>
+      <category id="8937" parentId="8660">Таймеры для полива</category>
+      <category id="8938" parentId="8205">Электроды</category>
+      <category id="8939" parentId="7932">Блоки питания к промышленному ПК</category>
+      <category id="8940" parentId="8660">Тяпки</category>
+      <category id="8941" parentId="8932">Элементы СКС</category>
+      <category id="8942" parentId="8932">Оптические муфты и патч-панели</category>
+      <category id="8943" parentId="8660">Подметальные машины</category>
+      <category id="8944" parentId="8660">Тройники для шланга</category>
+      <category id="8945" parentId="8302">Пистолеты для продувки</category>
+      <category id="8946" parentId="8437">Рабочие столы</category>
+      <category id="8947" parentId="8205">Шины для цепной пилы</category>
+      <category id="8948" parentId="1308">Аксессуары для наушников</category>
+      <category id="8949" parentId="7302">Аксесуары</category>
+      <category id="8950" parentId="7276">Вакууматоры</category>
+      <category id="8951" parentId="8582">Краски и лаки</category>
+      <category id="8952" parentId="8495">Клавиши смыва и комплектующие</category>
+      <category id="8953" parentId="8495">Смесители</category>
+      <category id="8954" parentId="8495">Измельчители пищевых отходов</category>
+      <category id="8955" parentId="8495">Инсталляции</category>
+      <category id="8956" parentId="8495">Донные клапаны</category>
+      <category id="8957" parentId="8749">Дорожки на стол</category>
+      <category id="8958" parentId="8749">Шторы</category>
+      <category id="8959" parentId="8749">Скатерти</category>
+      <category id="8960" parentId="8749">Салфетки на стол</category>
+      <category id="8961" parentId="7948">Окрашивание волос</category>
+      <category id="8962" parentId="8977">Средства после загара</category>
+      <category id="8963" parentId="7983">Гигиенические накладки на унитаз</category>
+      <category id="8964" parentId="8977">Средства для загара</category>
+      <category id="8965" parentId="8961">Оттеночные шампуни</category>
+      <category id="8966" parentId="8779">Кремы для кожи вокруг глаз</category>
+      <category id="8967" parentId="7983">Сумки хозяйственные</category>
+      <category id="8968" parentId="8961">Оттеночные бальзамы</category>
+      <category id="8969" parentId="8961">Краски для волос</category>
+      <category id="8970" parentId="7948">Уход за бородой</category>
+      <category id="8971" parentId="8961">Краски для бровей</category>
+      <category id="8972" parentId="8121">Спреи для тела</category>
+      <category id="8973" parentId="8961">Хна</category>
+      <category id="8974" parentId="8970">Шампунь для бороды</category>
+      <category id="8975" parentId="8961">Басма</category>
+      <category id="8976" parentId="8970">Масло для ухода за бородой</category>
+      <category id="8977" parentId="7948">Солнцезащитные средства</category>
+      <category id="8978" parentId="8970">Бальзамы для ухода за бородой</category>
+      <category id="8979" parentId="8977">Средства от загара</category>
+      <category id="8980" parentId="7302">Иригаторы</category>
+      <category id="8981" parentId="7302">Зубные центры</category>
+      <category id="8982" parentId="7302">Расчески для волос</category>
+      <category id="8983" parentId="7712">Настольный футбол</category>
+      <category id="8984" parentId="8829">Мел</category>
+      <category id="8985" parentId="8829">Цветной картон</category>
+      <category id="8986" parentId="8829">Цветная бумага</category>
+      <category id="8987" parentId="8829">Белый картон</category>
+      <category id="8988">Зоотовары</category>
+      <category id="8989" parentId="9001">Помада для губ</category>
+      <category id="8990" parentId="8780">Духи</category>
+      <category id="8991" parentId="9001">Блеск для губ</category>
+      <category id="8992" parentId="8779">Сыворотка для лица</category>
+      <category id="8993" parentId="9001">Тушь для ресниц</category>
+      <category id="8994" parentId="8104">Крем для волос</category>
+      <category id="8995" parentId="9001">Румяна</category>
+      <category id="8996" parentId="9001">CC-кремы</category>
+      <category id="8997" parentId="8121">Бальзамы для тела</category>
+      <category id="8998" parentId="8961">Окислители для волос</category>
+      <category id="8999" parentId="8121">Соль для ванны</category>
+      <category id="9000" parentId="8779">Гели для лица</category>
+      <category id="9001" parentId="7948">Декоративная косметика</category>
+      <category id="9002" parentId="8495">Душевой гарнитур</category>
+      <category id="9003" parentId="8495">Лейка для душа</category>
+      <category id="9004" parentId="8495">Верхний душ</category>
+      <category id="9005" parentId="8829">Готовальни</category>
+      <category id="9006" parentId="8829">Циркуль</category>
+      <category id="9007" parentId="7731">Пеленальный блок</category>
+      <category id="9008" parentId="7731">Комплект колес для кроваток</category>
+      <category id="9009" parentId="8558">Наборы стаканов</category>
+      <category id="9010" parentId="8558">Френч-прессы</category>
+      <category id="9011">Продукты питания</category>
+      <category id="9012" parentId="9011">Кофе</category>
+      <category id="9013" parentId="7276">Омлетницы</category>
+      <category id="9014" parentId="8494">Стелажи</category>
+      <category id="9015" parentId="9011">Чай</category>
+      <category id="9016" parentId="7729">Скейтборды детские</category>
+      <category id="9017" parentId="7729">Снежколепы</category>
+      <category id="9018" parentId="8558">Открывалки для бутылок</category>
+      <category id="9019" parentId="8558">Шинковки</category>
+      <category id="9020" parentId="8558">Ланч-боксы</category>
+      <category id="9021" parentId="9025">Детское пюре</category>
+      <category id="9022" parentId="9025">Детские каши</category>
+      <category id="9023" parentId="9025">Детское печенье</category>
+      <category id="9024" parentId="9025">Детские чаи</category>
+      <category id="9025" parentId="7456">Детское питание</category>
+      <category id="9026" parentId="9025">Детские соки</category>
+      <category id="9027" parentId="9025">Детские смеси</category>
+      <category id="9028" parentId="9001">Тушь для бровей</category>
+      <category id="9029" parentId="9001">Тональные кремы</category>
+      <category id="9030" parentId="9001">Консилеры</category>
+      <category id="9031" parentId="9001">Хайлайтеры для лица</category>
+      <category id="9032" parentId="9001">Корректоры для лица</category>
+      <category id="9033" parentId="9001">Тени для век</category>
+      <category id="9034" parentId="9001">Пудра для лица</category>
+      <category id="9035" parentId="9001">База под макияж</category>
+      <category id="9036" parentId="7983">Пакети для вакуумування</category>
+      <category id="9037" parentId="9001">Карандаши для глаз</category>
+      <category id="9038" parentId="9001">Карандаши для губ</category>
+      <category id="9039" parentId="9001">Гели для бровей</category>
+      <category id="9040" parentId="9001">Подводка для глаз</category>
+      <category id="9041" parentId="9001">Фломастеры для бровей</category>
+      <category id="9042" parentId="9001">Карандаши для бровей</category>
+      <category id="9043" parentId="9001">BB-кремы</category>
+      <category id="9044" parentId="8829">Детские ланч-боксы</category>
+      <category id="9045" parentId="7728">Детские маникюрные наборы</category>
+      <category id="9046" parentId="8131">Жевательные резинки и конфеты с ксилитом</category>
+      <category id="9047" parentId="8131">Средства для индикации зубного налета</category>
+      <category id="9048" parentId="8875">Хирургические дезинфекторы для кожи</category>
+      <category id="9049" parentId="7969">Салфетки для стирки</category>
+      <category id="9050" parentId="8829">Стикер-наклейки</category>
+      <category id="9051" parentId="7969">Бытовые дезинфекторы поверхностей</category>
+      <category id="9052" parentId="8131">Диспенсеры для ополаскивателей полости рта</category>
+      <category id="9053" parentId="8131">Профессиональные стоматологические наборы</category>
+      <category id="9054" parentId="8988">Консервы для котов</category>
+      <category id="9055" parentId="8988">Сухой корм для собак</category>
+      <category id="9056" parentId="8988">Влажный корм для собак</category>
+      <category id="9057" parentId="8988">Полувлажный корм для собак</category>
+      <category id="9058" parentId="8988">Консервы для собак</category>
+      <category id="9059" parentId="8988">Сухой корм для котов</category>
+      <category id="9060" parentId="8988">Наполнители для туалета</category>
+      <category id="9061" parentId="8988">Влажный корм для котов</category>
+      <category id="9062" parentId="8988">Паштеты для котов</category>
+    </categories>
+  </shop>
+</yml_catalog>
