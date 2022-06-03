@@ -10,7 +10,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": "^7.4@dev"
+        "guzzlehttp/guzzle": "^7.4@dev",
+        "monolog/monolog": "2.x-dev"
     },
     "autoload": {
         "psr-4": {

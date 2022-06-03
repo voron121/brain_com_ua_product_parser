@@ -18,5 +18,5 @@ final class Config
     public $shopCurrency = 'UAH';
     public $priceListFileName = 'brain_for_rozetka.xml';
     public $priceListFilePath = __DIR__ . '/../pricelist/';
-
+    public $logPath = __DIR__ . '/../logs/';
 }
