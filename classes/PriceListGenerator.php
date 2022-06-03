@@ -6,18 +6,15 @@ use DomainException;
 
 class PriceListGenerator
 {
-    const PRICE_LIST_NAME = 'brain_for_rozetka.xml';
+    private $db;
 
-    const PRICE_LIST_PATH = __DIR__ . '/../pricelist/';
+    private $dom;
 
-    const CURRENCY_CODE = 'UAH';
-
-    protected $db;
-
-    protected $dom;
+    private $config;
 
     public function __construct()
     {
+        $this->config = new Config();
         $this->db = DBConnector::getDB();
         $this->dom = new DOMDocument('1.0', 'utf-8');
         $this->dom->formatOutput = true;
@@ -66,9 +63,9 @@ class PriceListGenerator
     private function getShopNode(): \DOMElement
     {
         $shopNode = $this->dom->createElement('shop');
-        $shopNode->appendChild($this->dom->createElement('name', 'brain'));
-        $shopNode->appendChild($this->dom->createElement('company', 'brain'));
-        $shopNode->appendChild($this->dom->createElement('url', 'https://google.com'));
+        $shopNode->appendChild($this->dom->createElement('name', $this->config->shopName));
+        $shopNode->appendChild($this->dom->createElement('company', $this->config->shopCompany));
+        $shopNode->appendChild($this->dom->createElement('url', $this->config->shopUrl));
         return $shopNode;
     }
 
@@ -90,7 +87,7 @@ class PriceListGenerator
     private function getCurrenciesNode(): \DOMElement
     {
         $currency = $this->dom->createElement('currency');
-        $currency->setAttribute('id', self::CURRENCY_CODE);
+        $currency->setAttribute('id', $this->config->shopCurrency);
         $currency->setAttribute('rate', '1');
         $currencies = $this->dom->createElement('currencies');
         $currencies->appendChild($currency);
@@ -128,7 +125,7 @@ class PriceListGenerator
         $offer->appendChild($this->dom->createElement('name', htmlspecialchars(strip_tags(trim($product->name))) ));
         $offer->appendChild($this->dom->createElement('description', htmlspecialchars(strip_tags(trim($product->description))) ));
         $offer->appendChild($this->dom->createElement('price', $product->price_uah));
-        $offer->appendChild($this->dom->createElement('currencyId', self::CURRENCY_CODE));
+        $offer->appendChild($this->dom->createElement('currencyId', $this->config->shopCurrency));
         $offer->appendChild($this->dom->createElement('categoryId', $product->categoryID));
         $offer->appendChild($this->dom->createElement('picture', $product->medium_image));
         // HARDCODE: i don't know from what field get this value? so set 100
@@ -181,7 +178,6 @@ class PriceListGenerator
     public function execute(): void
     {
         $this->createPriceList();
-        //var_dump( $this->dom->saveXML() );
-        file_put_contents(   self::PRICE_LIST_PATH . self::PRICE_LIST_NAME, $this->dom->saveXML());
+        file_put_contents(   $this->config->priceListFilePath . $this->config->priceListFileName, $this->dom->saveXML());
     }
 }
