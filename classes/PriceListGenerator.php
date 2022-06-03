@@ -48,7 +48,7 @@ class PriceListGenerator
                          articul, 
                          weight, 
                          price_uah, 
-                         full_image,
+                         medium_image,
                          vendorID,
                          options 
                     FROM products';
@@ -126,10 +126,10 @@ class PriceListGenerator
         $offer->appendChild($this->dom->createElement('description', htmlspecialchars(strip_tags(trim($product->description))) ));
         $offer->appendChild($this->dom->createElement('currencyId', self::CURRENCY_CODE));
         $offer->appendChild($this->dom->createElement('categoryId', $product->categoryID));
-        $offer->appendChild($this->dom->createElement('picture', $product->full_image));
+        $offer->appendChild($this->dom->createElement('picture', $product->medium_image));
         $offer->appendChild($this->dom->createElement('name', htmlspecialchars(strip_tags(trim($product->name))) ));
         $offer->appendChild($this->dom->createElement('vendorCode', $product->vendorID));
-        // HARDCODE: i dont'now from what field get this value? so set 100
+        // HARDCODE: i don't know from what field get this value? so set 100
         $offer->appendChild($this->dom->createElement('stock_quantity', 100));
         // $offer->appendChild($this->dom->createElement('brend', ''));
         // Add params if they exist
