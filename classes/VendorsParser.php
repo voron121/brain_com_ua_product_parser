@@ -29,7 +29,7 @@ class VendorsParser extends Base
         if ($vendors->status != 1) {
             throw new Exception('Error getting vendors: ' . $vendors->result);
         }
-        return $vendors->result;
+        return array_column($vendors->result, null, 'vendorID');
     }
 
     /**
@@ -40,7 +40,6 @@ class VendorsParser extends Base
     {
         $query = 'INSERT INTO vendors
                     SET vendorID = :vendorID,
-                        categoryID = :categoryID,
                         name = :name
                     ON DUPLICATE KEY UPDATE
                         name = :name';
@@ -48,7 +47,6 @@ class VendorsParser extends Base
         foreach ($this->getVendors() as $vendor) {
             $stmt->execute([
                 'vendorID' => $vendor->vendorID,
-                'categoryID' => $vendor->categoryID,
                 'name' => $vendor->name
             ]);
         }
