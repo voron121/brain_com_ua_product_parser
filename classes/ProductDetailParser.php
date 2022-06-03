@@ -4,13 +4,7 @@ namespace App;
 
 class ProductDetailParser extends Base
 {
-    /**
-     * @return string
-     */
-    protected function getEndpoint(): string
-    {
-        return $this->config->apiProductEndpoint;
-    }
+    const API_SERVICE = 'product';
 
     /**
      * @param int $productID

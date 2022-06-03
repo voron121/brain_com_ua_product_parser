@@ -6,13 +6,7 @@ class ProductsParser extends Base
 {
     const LIMIT = 100;
 
-    /**
-     * @return string
-     */
-    protected function getEndpoint(): string
-    {
-        return $this->config->apiProductsEndpoint;
-    }
+    const API_SERVICE = 'products';
 
     /**
      * @param int $categoryID

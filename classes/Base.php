@@ -7,6 +7,8 @@ use Exception;
 
 abstract class Base
 {
+    const API_SERVICE = '';
+
     protected $sessionToken;
 
     protected $db;
@@ -23,7 +25,10 @@ abstract class Base
         $this->sessionToken = Auth::getSessionToken();
     }
 
-    abstract protected function getEndpoint(): string;
+    protected function getEndpoint(): string
+    {
+        return $this->config->apiEndpoint . '/' . static::API_SERVICE;
+    }
 
     abstract public function execute(): void;
 }

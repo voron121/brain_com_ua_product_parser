@@ -2,9 +2,9 @@
 
 namespace App;
 
-class CategoriesParser extends Base
+class VendorsParser extends Base
 {
-    const API_SERVICE = 'categories';
+    const API_SERVICE = 'vendors';
 
     /**
      * @return array

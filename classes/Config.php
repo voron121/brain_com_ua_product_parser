@@ -10,8 +10,6 @@ final class Config
     public $dbUser = 'voron121_brain';
     public $apiLogin = 'uptica85@gmail.com';
     public $apiPassword = 'Meriel170671461';
+    public $apiEndpoint = 'http://api.brain.com.ua';
     public $apiAuthEndpoint = 'http://api.brain.com.ua/auth';
-    public $apiCategoriesEndpoint = 'http://api.brain.com.ua/categories';
-    public $apiProductsEndpoint = 'http://api.brain.com.ua/products';
-    public $apiProductEndpoint = 'http://api.brain.com.ua/product';
 }
