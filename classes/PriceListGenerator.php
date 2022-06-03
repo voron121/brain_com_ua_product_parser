@@ -38,20 +38,23 @@ class PriceListGenerator
      */
     private function getProducts(): array
     {
-        $query = 'SELECT productID, 
-                         name, 
-                         description, 
-                         country, 
-                         categoryID, 
-                         product_code, 
-                         is_archive, 
-                         articul, 
-                         weight, 
-                         price_uah, 
-                         medium_image,
-                         vendorID,
-                         options 
-                    FROM products';
+        $query = 'SELECT products.productID, 
+                         products.name, 
+                         products.description, 
+                         products.country, 
+                         products.categoryID,
+                         products.vendorID,
+                         products.product_code, 
+                         products.is_archive, 
+                         products.articul, 
+                         products.weight, 
+                         products.price_uah, 
+                         products.medium_image,
+                         vendors.name AS vendor,
+                         products.options 
+                    FROM products
+                        LEFT JOIN vendors USING(vendorID)
+                    WHERE products.description IS NOT NULL';
         $stmt = $this->db->query($query);
         return $stmt->fetchAll();
     }
@@ -122,16 +125,16 @@ class PriceListGenerator
         $offer = $this->dom->createElement('offer');
         $offer->setAttribute('id', $product->productID);
         $offer->setAttribute('available', $product->is_archive === 'no' ? 'true' : 'false');
-        $offer->appendChild($this->dom->createElement('price', $product->price_uah));
+        $offer->appendChild($this->dom->createElement('name', htmlspecialchars(strip_tags(trim($product->name))) ));
         $offer->appendChild($this->dom->createElement('description', htmlspecialchars(strip_tags(trim($product->description))) ));
+        $offer->appendChild($this->dom->createElement('price', $product->price_uah));
         $offer->appendChild($this->dom->createElement('currencyId', self::CURRENCY_CODE));
         $offer->appendChild($this->dom->createElement('categoryId', $product->categoryID));
         $offer->appendChild($this->dom->createElement('picture', $product->medium_image));
-        $offer->appendChild($this->dom->createElement('name', htmlspecialchars(strip_tags(trim($product->name))) ));
-        $offer->appendChild($this->dom->createElement('vendorCode', $product->vendorID));
         // HARDCODE: i don't know from what field get this value? so set 100
         $offer->appendChild($this->dom->createElement('stock_quantity', 100));
-        // $offer->appendChild($this->dom->createElement('brend', ''));
+        $offer->appendChild($this->dom->createElement('vendorCode', $product->vendorID));
+        $offer->appendChild($this->dom->createElement('brend', htmlspecialchars(strip_tags(trim($product->vendor)))));
         // Add params if they exist
         if (!is_null($product->options)) {
             $options = json_decode($product->options);
