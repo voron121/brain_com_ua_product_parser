@@ -7,45 +7,49 @@ class VendorsParser extends Base
     const API_SERVICE = 'vendors';
 
     /**
+     * @param int $productID
+     * @return string
+     */
+    private function getVendorEndpoint(): string
+    {
+        return $this->getEndpoint() . '/' . $this->sessionToken;
+    }
+
+    /**
      * @return array
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
-    private function getCategories(): array
+    private function getVendors(): array
     {
-        $categoriesResponse = $this->http->get($this->getEndpoint());
-        if ($categoriesResponse->getStatusCode() != 200) {
-            throw new Exception('Error getting categories: http code ' . $categoriesResponse->getStatusCode());
+        $vendorsResponse = $this->http->get($this->getVendorEndpoint());
+        if ($vendorsResponse->getStatusCode() != 200) {
+            throw new Exception('Error getting vendors: http code ' . $vendorsResponse->getStatusCode());
         }
-        $categories = json_decode($categoriesResponse->getBody()->getContents());
-        if ($categories->status != 1) {
-            throw new Exception('Error getting categories: ' . $categories->result);
+        $vendors = json_decode($vendorsResponse->getBody()->getContents());
+        if ($vendors->status != 1) {
+            throw new Exception('Error getting vendors: ' . $vendors->result);
         }
-        return $categories->result;
+        return $vendors->result;
     }
 
     /**
      * @return void
      * @throws Exception
      */
-    private function writeCategories(): void
+    private function writeVendors(): void
     {
-        $query = 'INSERT INTO categories
-                    SET categoryID = :categoryID,
-                        parentID = :parentID,
-                        realcat = :realcat,
+        $query = 'INSERT INTO vendors
+                    SET vendorID = :vendorID,
+                        categoryID = :categoryID,
                         name = :name
-                    ON DUPLICATE KEY UPDATE 
-                        parentID = :parentID,
-                        realcat = :realcat,
+                    ON DUPLICATE KEY UPDATE
                         name = :name';
         $stmt = $this->db->prepare($query);
-        foreach ($this->getCategories() as $category) {
-            //echo $category->name."\n\r";
+        foreach ($this->getVendors() as $vendor) {
             $stmt->execute([
-                'categoryID' => $category->categoryID,
-                'parentID' => $category->parentID,
-                'realcat' => $category->realcat,
-                'name' => $category->name
+                'vendorID' => $vendor->vendorID,
+                'categoryID' => $vendor->categoryID,
+                'name' => $vendor->name
             ]);
         }
     }
@@ -55,7 +59,7 @@ class VendorsParser extends Base
      */
     public function execute(): void
     {
-        $this->writeCategories();
+        $this->writeVendors();
     }
 
 }

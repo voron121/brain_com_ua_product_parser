@@ -4,11 +4,16 @@ include __DIR__ ."/vendor/autoload.php";
 use App\CategoriesParser;
 use App\ProductsParser;
 use App\ProductDetailParser;
+use App\VendorsParser;
 
 try {
     echo "Start parsing categories. \n";
     (new CategoriesParser())->execute();
     echo "Parsing categories success!. \n";
+
+    echo "Start parsing vendors. \n";
+    (new VendorsParser())->execute();
+    echo "Parsing vendors success!. \n";
 
     echo "Start parsing products. \n";
     (new ProductsParser())->execute();

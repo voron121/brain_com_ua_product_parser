@@ -6,8 +6,9 @@ use App\Auth;
 use App\CategoriesParser;
 use App\ProductDetailParser;
 use App\PriceListGenerator;
+use App\VendorsParser;
 
-$test = new PriceListGenerator();
+$test = new VendorsParser();
 
 //echo "<pre>";
 $test->execute();
