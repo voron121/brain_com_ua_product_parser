@@ -20,7 +20,7 @@ try {
 } catch (Throwable $e) {
     $logger = new Logger('parser');
     $logger->pushHandler(new StreamHandler($config->logPath . LOG_FILE));
-    $logger->warning($e->getMessage());
+    $logger->warning($e->getMessage() . " file: " . $e->getFile(). " line: " . $e->getLine());
     echo "Error! " . $e->getMessage() . " file: " . $e->getFile(). " line: " . $e->getLine();
 }
 ?>
