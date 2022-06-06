@@ -2,6 +2,9 @@
 
 namespace App;
 
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
 class PriceListGenerator extends PriceListBase
 {
     /**
@@ -39,6 +42,9 @@ class PriceListGenerator extends PriceListBase
      */
     public function execute(): void
     {
+        $logger = new Logger('xmlGeneratorLog');
+        $logger->pushHandler(new StreamHandler($this->config->logPath . 'xmlGeneratorLog.log'));
+
         $priceListsCount = $this->calcPricelistsCount();
         for ($i = 0; $i <= $priceListsCount; $i++) {
             $offset = $this->getOffset($i);
@@ -46,6 +52,7 @@ class PriceListGenerator extends PriceListBase
             $priceListCreator->execute();
             $priceListCreator = null;
             usleep(rand(100000, 1000000));
+            $logger->info('    created price list # ' . $i);
         }
     }
 
