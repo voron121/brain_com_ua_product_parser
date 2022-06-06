@@ -56,7 +56,7 @@ class ProductsParser extends Base
             if ($products->status != 1) {
                 throw new Exception('Error getting products list: ' . $products->result);
             }
-            $productsList = array_merge($productsList, $products->result->list);
+            $this->writeProducts($products->result->list)
             $productsCountTotal = $products->result->count;
             $i++;
             usleep(rand(100000, 1000000));
@@ -154,7 +154,7 @@ class ProductsParser extends Base
     public function execute(): void
     {
         foreach ($this->getCategories() as $category) {
-            $this->writeProducts($this->getProductsByCategory($category->categoryID));
+            $this->writeProducts($category->categoryID);
         }
     }
 
