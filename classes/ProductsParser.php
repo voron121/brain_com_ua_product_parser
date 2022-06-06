@@ -154,7 +154,7 @@ class ProductsParser extends Base
     public function execute(): void
     {
         foreach ($this->getCategories() as $category) {
-            $this->writeProducts($category->categoryID);
+            $this->getProductsByCategory($category->categoryID);
         }
     }
 
