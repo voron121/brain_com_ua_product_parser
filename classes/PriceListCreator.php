@@ -10,12 +10,15 @@ class PriceListCreator extends PriceListBase
 
     private $offset;
 
+    private $priceListNumber;
+
     private $products;
 
-    public function __construct(int $offset)
+    public function __construct(int $offset, int $priceListNumber)
     {
         parent::__construct();
         $this->offset = $offset;
+        $this->priceListNumber = $priceListNumber;
         $this->dom = new DOMDocument('1.0', 'utf-8');
         $this->dom->formatOutput = true;
         $this->products = $this->getProducts();  var_dump(count($this->products));
@@ -195,7 +198,7 @@ class PriceListCreator extends PriceListBase
      */
     private function savePriceList(): void
     {
-        $priceList = $this->config->priceListFilePath . $this->offset . "-" . $this->config->priceListFileName;
+        $priceList = $this->config->priceListFilePath . $this->priceListNumber . "-" . $this->config->priceListFileName;
         file_put_contents($priceList, $this->dom->saveXML());
     }
 

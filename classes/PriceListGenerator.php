@@ -48,7 +48,7 @@ class PriceListGenerator extends PriceListBase
         $priceListsCount = $this->calcPricelistsCount();
         for ($i = 0; $i <= $priceListsCount; $i++) {
             $offset = $this->getOffset($i);
-            $priceListCreator = new PriceListCreator($offset);
+            $priceListCreator = new PriceListCreator($offset, $i);
             $priceListCreator->execute();
             $priceListCreator = null;
             usleep(rand(100000, 1000000));
