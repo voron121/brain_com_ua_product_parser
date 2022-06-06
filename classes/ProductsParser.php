@@ -56,7 +56,7 @@ class ProductsParser extends Base
             if ($products->status != 1) {
                 throw new Exception('Error getting products list: ' . $products->result);
             }
-            $this->writeProducts($products->result->list)
+            $this->writeProducts($products->result->list);
             $productsCountTotal = $products->result->count;
             $i++;
             usleep(rand(100000, 1000000));
