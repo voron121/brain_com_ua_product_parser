@@ -17,13 +17,13 @@ try {
 
     echo "Start parsing categories. \n";
     $logger->info('Start parsing categories.');
-    //(new CategoriesParser())->execute();
+    (new CategoriesParser())->execute();
     echo "Parsing categories success!. \n";
     $logger->info('Parsing categories success!');
 
     echo "Start parsing vendors. \n";
     $logger->info('Start parsing vendors.');
-    //(new VendorsParser())->execute();
+    (new VendorsParser())->execute();
     echo "Parsing vendors success!. \n";
     $logger->info('Parsing vendors success!');
 
