@@ -21,7 +21,7 @@ class PriceListCreator extends PriceListBase
         $this->priceListNumber = $priceListNumber;
         $this->dom = new DOMDocument('1.0', 'utf-8');
         $this->dom->formatOutput = true;
-        $this->products = $this->getProducts();  var_dump(count($this->products));
+        $this->products = $this->getProducts();
     }
 
     /**
