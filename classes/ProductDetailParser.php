@@ -18,10 +18,48 @@ class ProductDetailParser extends Base
     /**
      * @return array
      */
-    private function getProducts(): array
+    private function getProducts(int $offset): array
     {
-        $stmt = $this->db->query('SELECT productID FROM products');
-        return $stmt->fetchAll();
+        $query = 'SELECT productID 
+                    FROM products 
+                    LIMIT :limit 
+                    OFFSET :offset';
+        $stmt = $this->db->prepare($query);
+        $stmt->bindParam(':offset', $offset, \PDO::PARAM_INT);
+        $stmt->bindParam(':limit', $this->config->productsLimit, \PDO::PARAM_INT);
+        $stmt->execute();
+        $products = $stmt->fetchAll();
+        return array_keys(array_column($products, 'productID', 'productID'));
+    }
+
+    /**
+     * @param int $step
+     * @return int
+     */
+    private function getOffset(int $step): int
+    {
+        $offset = 0;
+        if ($step > 0) {
+            $offset = $this->config->productsLimit * $step + 1;
+        }
+        return $offset;
+    }
+
+    /**
+     * @return int
+     */
+    private function getProductsCount(): int
+    {
+        $stmt = $this->db->query('SELECT count(productID) FROM products');
+        return $stmt->fetchColumn();
+    }
+
+    /**
+     * @return int
+     */
+    private function calcStepsCount(): int
+    {
+        return ceil($this->getProductsCount() / $this->config->productsLimit);
     }
 
     /**
@@ -89,9 +127,12 @@ class ProductDetailParser extends Base
      */
     public function execute(): void
     {
-        foreach ($this->getProducts() as $product) {
-            $this->updateProduct($this->getProductDetailsById($product->productID));
-            usleep(rand(100000, 1000000));
+        for ($i = 0; $i <= $this->calcStepsCount(); $i++) {
+            $offset = $this->getOffset($i);
+            foreach ($this->getProducts($offset) as $productId) {
+                $this->updateProduct($this->getProductDetailsById($productId));
+                usleep(rand(100000, 1000000));
+            }
         }
     }
 
