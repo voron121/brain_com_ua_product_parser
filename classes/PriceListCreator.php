@@ -186,7 +186,7 @@ class PriceListCreator extends PriceListBase
         $priceList = $this->getYmlСatalogNode();
         $shopNode = $this->getShopNode();
         $shopNode->appendChild($this->getCurrenciesNode());
-        $shopNode->appendChild($this->getCategoriesNode());
+        //$shopNode->appendChild($this->getCategoriesNode());
         $shopNode->appendChild($this->getOffersNode());
         $priceList->appendChild($shopNode);
         $this->dom->appendChild($priceList);
