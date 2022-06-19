@@ -93,7 +93,8 @@ class ProductsParser extends Base
                         retail_price_uah = :retail_price_uah,
                         bonus = :bonus,
                         full_image = :full_image,
-                        medium_image = :medium_image
+                        medium_image = :medium_image,
+                        stocks_expected = :stocks_expected
                     ON DUPLICATE KEY UPDATE 
                         product_code = :product_code,
                         warranty = :warranty,
@@ -116,10 +117,10 @@ class ProductsParser extends Base
                         retail_price_uah = :retail_price_uah,
                         bonus = :bonus,
                         full_image = :full_image,
-                        medium_image = :medium_image';
+                        medium_image = :medium_image,
+                        stocks_expected = :stocks_expected';
         $stmt = $this->db->prepare($query);
         foreach ($products as $product) {
-            // echo $product->name."\n\r";
             $stmt->execute([
                 "productID" => (int)$product->productID,
                 "product_code" => $product->product_code,
@@ -143,7 +144,8 @@ class ProductsParser extends Base
                 "retail_price_uah" => $product->retail_price_uah,
                 "bonus" => $product->bonus,
                 "full_image" => $product->full_image,
-                "medium_image" => $product->medium_image
+                "medium_image" => $product->medium_image,
+                "stocks_expected" => $product->stocks_expected
             ]);
         }
     }

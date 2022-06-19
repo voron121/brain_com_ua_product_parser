@@ -85,40 +85,16 @@ class ProductDetailParser extends Base
     private function updateProduct(array $product): void
     {
         $query = 'UPDATE products
-                    SET description = :description,
-                        date_added = :date_added,
-                        date_modified = :date_modified,
-                        actionID = :actionID,
-                        is_price_cut = :is_price_cut,
-                        is_new = :is_new,
-                        bonus = :bonus,
-                        stocks = :stocks,
+                    SET stocks = :stocks,
                         stocks_expected = :stocks_expected,
-                        available = :available,
-                        options = :options,
-                        koduktved = :koduktved,
-                        reservation_limit = :reservation_limit,
-                        self_delivery = :self_delivery,
-                        quantity_package_sale = :quantity_package_sale
+                        available = :available
                     WHERE productID = :productID';
         $stmt = $this->db->prepare($query);
         $stmt->execute([
-            'description' => $product['description'],
-            'date_added' => $product['date_added'],
-            'date_modified' => $product['date_modified'],
-            'is_price_cut' => $product['is_price_cut'] ? "yes" : "no",
-            'is_new' => $product['is_new'] ? "yes" : "no",
-            'actionID' => (int)$product['actionID'],
-            'bonus' => $product['bonus'],
             'stocks' => json_encode($product['stocks']),
             'stocks_expected' => json_encode($product['stocks_expected']),
             'available' => json_encode($product['available']),
-            'options' => json_encode($product['options']),
-            'koduktved' => $product['koduktved'],
-            'reservation_limit' => $product['reservation_limit'],
-            'quantity_package_sale' => $product['quantity_package_sale'],
-            'productID' => (int)$product['productID'],
-            'self_delivery' => (int)$product['self_delivery'],
+            'productID' => (int)$product['productID']
         ]);
     }
 

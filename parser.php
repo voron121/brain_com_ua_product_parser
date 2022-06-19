@@ -4,7 +4,6 @@ include __DIR__ ."/vendor/autoload.php";
 use App\CategoriesParser;
 use App\ProductsParser;
 use App\ProductDetailParser;
-use App\VendorsParser;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use App\Config;
@@ -20,12 +19,6 @@ try {
     (new CategoriesParser())->execute();
     echo "Parsing categories success!. \n";
     $logger->info('Parsing categories success!');
-
-    echo "Start parsing vendors. \n";
-    $logger->info('Start parsing vendors.');
-    (new VendorsParser())->execute();
-    echo "Parsing vendors success!. \n";
-    $logger->info('Parsing vendors success!');
 
     echo "Start parsing products. \n";
     $logger->info('Start parsing products.');

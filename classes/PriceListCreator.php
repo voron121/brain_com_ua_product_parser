@@ -37,7 +37,6 @@ class PriceListCreator extends PriceListBase
                     FROM categories
                     WHERE categoryID IN('.implode(",", array_keys($categories)).')';
         $stmt = $this->db->query($query);
-        //var_dump($stmt->fetchAll()); die();
         return $stmt->fetchAll();
     }
 
@@ -48,21 +47,9 @@ class PriceListCreator extends PriceListBase
     {
         $query = 'SELECT products.productID, 
                          products.name, 
-                         products.description, 
-                         products.country, 
-                         products.categoryID,
-                         products.vendorID,
-                         products.product_code, 
-                         products.is_archive, 
-                         products.articul, 
-                         products.weight, 
-                         products.price_uah, 
-                         products.medium_image,
-                         vendors.name AS vendor,
-                         products.options 
+                         products.stocks_expected,
+                         products.articul
                     FROM products
-                        LEFT JOIN vendors USING(vendorID)
-                    WHERE products.description IS NOT NULL
                     ORDER BY products.productID ASC
                     LIMIT :limit
                     OFFSET :offset';
@@ -136,28 +123,12 @@ class PriceListCreator extends PriceListBase
      */
     private function getOfferNode($product): \DOMElement
     {
+        $stocksExpected = json_decode($product->stocks_expected, true);
         $offer = $this->dom->createElement('offer');
         $offer->setAttribute('id', $product->productID);
-        $offer->setAttribute('available', $product->is_archive === 'no' ? 'true' : 'false');
+        $offer->setAttribute('available', empty($stocksExpected) ? 'false' : 'true');
         $offer->appendChild($this->dom->createElement('name', htmlspecialchars(strip_tags(trim($product->name))) ));
-        $offer->appendChild($this->dom->createElement('description', htmlspecialchars(strip_tags(trim($product->description))) ));
-        $offer->appendChild($this->dom->createElement('price', $product->price_uah));
-        $offer->appendChild($this->dom->createElement('currencyId', $this->config->shopCurrency));
-        $offer->appendChild($this->dom->createElement('categoryId', $product->categoryID));
-        $offer->appendChild($this->dom->createElement('picture', $product->medium_image));
-        // HARDCODE: i don't know from what field get this value? so set 100
-        $offer->appendChild($this->dom->createElement('stock_quantity', 100));
-        $offer->appendChild($this->dom->createElement('vendorCode', $product->vendorID));
-        $offer->appendChild($this->dom->createElement('brend', htmlspecialchars(strip_tags(trim($product->vendor)))));
-        // Add params if they exist
-        if (!is_null($product->options)) {
-            $options = json_decode($product->options);
-            foreach ($options as $option) {
-                $param = $this->dom->createElement('param', htmlspecialchars(strip_tags(trim($option->value))) );
-                $param->setAttribute('name', $option->name);
-                $offer->appendChild($param);
-            }
-        }
+        $offer->appendChild($this->dom->createElement('articul', htmlspecialchars(strip_tags(trim($product->articul)))));
         return $offer;
     }
 
@@ -186,7 +157,6 @@ class PriceListCreator extends PriceListBase
         $priceList = $this->getYmlСatalogNode();
         $shopNode = $this->getShopNode();
         $shopNode->appendChild($this->getCurrenciesNode());
-        //$shopNode->appendChild($this->getCategoriesNode());
         $shopNode->appendChild($this->getOffersNode());
         $priceList->appendChild($shopNode);
         $this->dom->appendChild($priceList);
