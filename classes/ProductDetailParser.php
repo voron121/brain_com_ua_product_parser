@@ -22,6 +22,8 @@ class ProductDetailParser extends Base
     {
         $query = 'SELECT productID 
                     FROM products 
+                    WHERE description IS NULL 
+                       OR  parse_date <= SUBDATE(NOW(), INTERVAL 2 DAY)
                     LIMIT :limit 
                     OFFSET :offset';
         $stmt = $this->db->prepare($query);
@@ -86,14 +88,17 @@ class ProductDetailParser extends Base
     {
         $query = 'UPDATE products
                     SET stocks = :stocks,
+                        description = :description,
                         stocks_expected = :stocks_expected,
-                        available = :available
+                        available = :available,
+                        parse_date = NOW()
                     WHERE productID = :productID';
         $stmt = $this->db->prepare($query);
         $stmt->execute([
             'stocks' => json_encode($product['stocks']),
             'stocks_expected' => json_encode($product['stocks_expected']),
             'available' => json_encode($product['available']),
+            'description' => $product['description'],
             'productID' => (int)$product['productID']
         ]);
     }

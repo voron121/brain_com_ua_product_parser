@@ -26,7 +26,7 @@ class ParserRobot extends Robot
             }
             echo "Start parsing categories. \n";
             $logger->info('Start parsing categories.');
-            //(new CategoriesParser())->execute();
+            (new CategoriesParser())->execute();
             echo "Parsing categories success!. \n";
             $logger->info('Parsing categories success!');
 
