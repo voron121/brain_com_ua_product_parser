@@ -47,6 +47,7 @@ class PriceListCreator extends PriceListBase
     {
         $query = 'SELECT products.productID, 
                          products.name, 
+                         products.stocks,
                          products.stocks_expected,
                          products.articul
                     FROM products
@@ -124,9 +125,11 @@ class PriceListCreator extends PriceListBase
     private function getOfferNode($product): \DOMElement
     {
         $stocksExpected = json_decode($product->stocks_expected, true);
+        $stocks = json_decode($product->stocks, true);
+        $isAvailable = !empty($stocksExpected) || !empty($stocks) ?  'true' : 'false';
         $offer = $this->dom->createElement('offer');
         $offer->setAttribute('id', $product->productID);
-        $offer->setAttribute('available', empty($stocksExpected) ? 'false' : 'true');
+        $offer->setAttribute('available', $isAvailable);
         $offer->appendChild($this->dom->createElement('name', htmlspecialchars(strip_tags(trim($product->name))) ));
         $offer->appendChild($this->dom->createElement('articul', htmlspecialchars(strip_tags(trim($product->articul)))));
         return $offer;

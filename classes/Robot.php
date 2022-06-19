@@ -6,6 +6,10 @@ abstract class Robot
 {
     protected $logFile;
 
+    /**
+     * @param string $class
+     * @return bool
+     */
     protected function isRobotLock(string $class): bool
     {
         static $lock;
@@ -18,5 +22,8 @@ abstract class Robot
         return $is_lock;
     }
 
+    /**
+     * @return void
+     */
     abstract public function execute(): void;
 }

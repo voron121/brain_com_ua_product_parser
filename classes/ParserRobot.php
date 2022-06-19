@@ -13,6 +13,9 @@ use App\Robot;
 
 class ParserRobot extends Robot
 {
+    /**
+     * @return void
+     */
     public function execute(): void
     {
         try {
