@@ -94,7 +94,8 @@ class ProductsParser extends Base
                         bonus = :bonus,
                         full_image = :full_image,
                         medium_image = :medium_image,
-                        stocks_expected = :stocks_expected
+                        stocks_expected = :stocks_expected,
+                        stocks = :stocks
                     ON DUPLICATE KEY UPDATE 
                         product_code = :product_code,
                         warranty = :warranty,
@@ -118,7 +119,8 @@ class ProductsParser extends Base
                         bonus = :bonus,
                         full_image = :full_image,
                         medium_image = :medium_image,
-                        stocks_expected = :stocks_expected';
+                        stocks_expected = :stocks_expected,
+                        stocks = :stocks';
         $stmt = $this->db->prepare($query);
         foreach ($products as $product) {
             $stmt->execute([
@@ -145,7 +147,8 @@ class ProductsParser extends Base
                 "bonus" => $product->bonus,
                 "full_image" => $product->full_image,
                 "medium_image" => $product->medium_image,
-                "stocks_expected" => $product->stocks_expected
+                "stocks_expected" => json_encode($product->stocks_expected),
+                "stocks" => json_encode($product->stocks)
             ]);
         }
     }
