@@ -25,7 +25,7 @@ class PriceListGenerator extends PriceListBase
      */
     private function getProductsCount(): int
     {
-        $stmt = $this->db->query('SELECT count(productID) FROM products WHERE products.description IS NOT NULL');
+        $stmt = $this->db->query('SELECT count(productID) FROM products');
         return $stmt->fetchColumn();
     }
 
