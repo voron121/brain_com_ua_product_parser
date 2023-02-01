@@ -21,5 +21,7 @@ final class Config
     public $priceListFilePath = __DIR__ . '/../pricelist/';
     public $logPath = __DIR__ . '/../logs/';
 
+    public $jsonPricePath = __DIR__ . '/../json-pricelist/';
+
 
 }
