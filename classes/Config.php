@@ -6,6 +6,7 @@ final class Config
 {
     public $dbHost = '';
     public $dbName = '';
+    public $storeDBName = '';
     public $dbPass = '';
     public $dbUser = '';
     public $apiLogin = '';
@@ -19,4 +20,6 @@ final class Config
     public $priceListFileName = 'brain_for_rozetka.xml';
     public $priceListFilePath = __DIR__ . '/../pricelist/';
     public $logPath = __DIR__ . '/../logs/';
+
+
 }

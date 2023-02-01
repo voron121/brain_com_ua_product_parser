@@ -6,6 +6,7 @@ final class Config
 {
     public $dbHost = '';
     public $dbName = '';
+    public $storeDBName = '';
     public $dbPass = '';
     public $dbUser = '';
     public $apiLogin = '';
