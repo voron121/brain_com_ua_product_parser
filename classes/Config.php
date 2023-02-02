@@ -4,13 +4,13 @@ namespace App;
 
 final class Config
 {
-    public $dbHost = '';
-    public $dbName = '';
-    public $storeDBName = '';
-    public $dbPass = '';
-    public $dbUser = '';
-    public $apiLogin = '';
-    public $apiPassword = '';
+    public $dbHost = 'localhost';
+    public $dbName = 'someDB';
+    public $storeDBName = 'someStoreDB';
+    public $dbPass = 'admin:)';
+    public $dbUser = 'admin:)';
+    public $apiLogin = 'test';
+    public $apiPassword = 'superTest';
     public $apiEndpoint = 'http://api.brain.com.ua';
     public $apiAuthEndpoint = 'http://api.brain.com.ua/auth';
     public $shopName = 'brain';
@@ -21,7 +21,7 @@ final class Config
     public $priceListFilePath = __DIR__ . '/../pricelist/';
     public $logPath = __DIR__ . '/../logs/';
 
-    public $jsonPricePath = __DIR__ . '/../json-pricelist/';
+    public $jsonPricePath = __DIR__ . '/../json-pricelist/filename.json';
 
 
 }

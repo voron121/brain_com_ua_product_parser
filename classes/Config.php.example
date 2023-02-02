@@ -21,4 +21,5 @@ final class Config
     public $priceListFilePath = __DIR__ . '/../pricelist/';
     public $logPath = __DIR__ . '/../logs/';
     public $productsLimit = 100;
+    public $jsonPricePath = __DIR__ . '/../json-pricelist/price_19710_452945_50_ua_1_0_20230201_193722.json';
 }
